@@ -242,6 +242,7 @@ figure {
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
+    background-color: #4D5466;
     z-index: 1;
     margin-bottom: 0; }
     #colorlib-hero .flexslider .slides {
