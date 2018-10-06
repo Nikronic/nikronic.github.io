@@ -500,15 +500,15 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #f2f3f7;
-  border: 1px solid #e6e6e6 !important;
-  color: #333333; }
+  background: #006257;
+  /*border: 1px solid #e6e6e6 !important;*/
+  color: #ffffff; }
 
 .panel-body {
-  padding: 1.5em;
-  margin-top: 5px;
-  border: 1px solid #e6e6e6 !important; }
-
+    padding: 1.5em;
+    margin-top: 5px;
+    /*border: 1px solid #e6e6e6 !important; */
+}
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; }
@@ -581,7 +581,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f2f3f7;
+  background: #006257;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
