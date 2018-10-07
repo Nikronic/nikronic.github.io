@@ -82,11 +82,10 @@ figure {
   padding-bottom: 40px;
   float: left;
   width: 300px;
-    color: #F5F5F6;
+  color: #F5F5F6;
   position: fixed;
-  overflow-y: scroll;
-  z-index: 1001;
-  background: #33333D; /*fixme side color*/
+  overflow: auto !important;
+  background: #33333D;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
