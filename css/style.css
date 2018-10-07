@@ -15,7 +15,7 @@ body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
-    background-color: #424250;
+  background: #424250 url("../images/dark-kashi.gif");
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -85,7 +85,7 @@ figure {
   color: #F5F5F6;
   position: fixed;
   overflow: auto !important;
-  background: #33333D;
+  background: rgba(19, 20, 22, 0.61);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -235,16 +235,22 @@ figure {
       width: 100%;
       padding: 0 1em; } }
 
+.flexslider {
+  background: unset;
+}
+
 #colorlib-hero {
   min-height: 500px;
-  background: #4D5466 no-repeat center center;
+  /*background: #4D5466 no-repeat center center;*/
+  background: unset !important;
   width: 100%;
   float: left;
   margin-bottom: 10em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
-    background-color: #424250; /*fixme color of slider of header*/
+    /*background-color: #424250; !*fixme color of slider of header*!*/
+    /*background-color: transparent;*/
     z-index: 1;
     margin-bottom: 0; }
     #colorlib-hero .flexslider .slides {
@@ -299,7 +305,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -333,17 +339,17 @@ figure {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
-          color: #000;
+
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
+
+            border: 1px solid #f5f5f5;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid #585858 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -1036,7 +1042,10 @@ body.offcanvas {
 #colorlib-counter {
   position: relative;
   clear: both;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  background-image: url("../images/counter_image.jpg");
+  background-position: 160px;
+}
 
 .colorlib-counters {
   padding: 3em 0;
@@ -1286,7 +1295,7 @@ body.offcanvas {
   box-shadow: none;
   background: transparent;
   border: transparent;
-  background: #f2f3f7;
+  background: #4e4e4e;
   height: 54px;
   font-size: 16px;
   font-weight: 400;
@@ -1302,7 +1311,7 @@ body.offcanvas {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: transparent;
-    background: #f0f0f0; }
+    background: #757575; }
 
 #message {
   height: 130px; }
@@ -1435,3 +1444,13 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+  border: unset !important;
+}
+.panel-default > .panel-heading {
+  background: unset !important;
+}
+.panel-heading a {
+  background: url("../images/dark-kashi.gif");
+}
