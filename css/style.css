@@ -1786,7 +1786,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     box-shadow: none;
     background: transparent;
     border: transparent;
-    background: #4e4e4e;
+    background: #4e4e4ea3;
     height: 54px;
     font-size: 16px;
     font-weight: 400;
@@ -1797,10 +1797,12 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
+    color: #8c8c8d;
 }
 
 .form-control:active, .form-control:focus {
     outline: none;
+    color: white;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: transparent;
