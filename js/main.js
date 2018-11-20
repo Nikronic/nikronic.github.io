@@ -187,7 +187,7 @@
                 navActive($(this.element).data('section'));
             }
         }, {
-            offset: '50px'
+            offset: '100px'
         });
 
         $section.waypoint(function (direction) {
