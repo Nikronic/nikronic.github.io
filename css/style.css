@@ -1308,6 +1308,28 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     color: #2c98f0;
 }
 
+.alert-dark-danger {
+    color: #989898 !important;
+    border: unset !important;
+    background: #542345;
+    font-size: 13px;
+}
+
+.alert-dark-danger i {
+    color: #ffffff;
+}
+
+.alert-dark-info {
+    color: #7B7C7C;
+    border: unset !important;
+    background: #542345;
+    font-size: 13px;
+}
+
+.alert-dark-info i {
+    color: #ffffff;
+}
+
 .project {
     background-size: cover;
     background-position: center center;
