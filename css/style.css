@@ -27,6 +27,11 @@ body {
     }
 }
 
+
+i {
+    color: #F5F5F6;
+}
+
 a {
     color: #2c98f0;
     -webkit-transition: 0.5s;
@@ -1407,7 +1412,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     }
 
     .project .desc h3 {
-        font-style: 28px;
+        /*font-size: 28px;*/
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         color: #000;
