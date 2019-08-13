@@ -794,6 +794,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     background-clip: padding-box;
 }
 
+.timeline-label ul{
+    color: #fffdfe;
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
     content: '';
     display: block;
