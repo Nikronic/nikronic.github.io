@@ -70,8 +70,8 @@
                         <li><a href="#" data-nav-section="skills" class="navbar-item">Skills</a></li>
                         <li><a href="#" data-nav-section="education" class="navbar-item">Education</a></li>
                         <li><a href="#" data-nav-section="experience" class="navbar-item">Experience</a></li>
-<!--                        <li><a href="#" data-nav-section="work" class="navbar-item">Work</a></li>-->
-                        <li><a href="#" data-nav-section="blog" class="navbar-item">Social</a></li>
+                        <!--                        <li><a href="#" data-nav-section="work" class="navbar-item">Work</a></li>-->
+                        <li><a class="navbar-item" data-nav-section="blog" href="#">Blog</a></li>
                         <li><a href="#" data-nav-section="contact" class="navbar-item">Contact</a></li>
                     </ul>
                 </div>
@@ -79,7 +79,8 @@
 
             <div class="colorlib-footer">
                 <p>
-                    <small>&copy; Copyright <script>document.write(new Date().getFullYear());</script>
+                    <small>&copy; Copyright
+                        <script>document.write(new Date().getFullYear());</script>
                         All rights reserved<br>This template is made by
                         <a href="https://colorlib.com" target="_blank">Colorlib</a>
                     </small>
@@ -694,10 +695,13 @@
                                             <div class="panel-body" style="color: #fffdfe">
                                                 <div class="row">
                                                     <div class="col-md-6">
-                                                        <p><strong>3rd place</strong> of university with <strong>GPA 93%
-                                                            (18.68 / 20)</strong>. </p>
-                                                        <p><a href="pdf/grades_persian.pdf">Download grades</a></p>
-                                                        <h5 class="h5">Teacher Assistant</h5>
+                                                        <p><em><strong>3rd rank</strong></em> among 2014 computer
+                                                            engineering department entrance students with <br>
+                                                            <strong>GPA 93%
+                                                                (18.64 / 20)</strong>. </p>
+                                                        <a href="pdf/transcript_persian.pdf">Download Untranslated
+                                                            Transcript</a>
+                                                        <h4 class="h4">Teacher Assistant Experiences</h4>
                                                         <ul>
                                                             <li>Advanced Programming - First semester 2018 (Dr.
                                                                 Mirroshandel)
@@ -710,6 +714,7 @@
                                                                 Shakeri)
                                                             </li>
                                                         </ul>
+
                                                     </div>
                                                     <div class="col-md-6">
                                                         <h5 class="h5">Courses:</h5>
@@ -724,8 +729,25 @@
                                                             <li>Computational Intelligence</li>
                                                             <li>Computer Aided Design (VHDL)</li>
                                                             <li>NLP</li>
-                                                            <li>and many more... .</li>
+                                                            <li>Robotics</li>
+                                                            <li>etc .</li>
                                                         </ul>
+                                                    </div>
+                                                    <br>
+                                                    <div class="col-md-12">
+                                                        <h4 class="h4">Awards:</h4>
+                                                        <ul>
+                                                            <li><p><strong>Exceptional Talent</strong> of Department of
+                                                                Computer Engineering - Aug 2019</p></li>
+                                                            <li><p><strong>Full Scholarship of B.Sc Degree</strong> -
+                                                                Aug 2015</p></li>
+                                                            <li><p>Accepted as <strong>M.Sc Degree Exceptional
+                                                                Talent</strong> of Department of Computer Engineering
+                                                                With <strong>Full Scholarship</strong><br>Iran
+                                                                University of Science and Technology - Aug 2019</p></li>
+                                                        </ul>
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -744,26 +766,25 @@
                                              aria-labelledby="headingTwo">
                                             <div class="panel-body" style="color: #fffdfe">
                                                 <ul>
-                                                    <li>Machine Learning by Stanford<a
-                                                            href="https://www.coursera.org/learn/machine-learning">See
-                                                        source page</a> - <a href="#">Certificate</a></li>
+                                                    <li>Machine Learning by Stanford <a
+                                                            href="https://www.coursera.org/learn/machine-learning">Home
+                                                        Page</a>
                                                     <li>SuperDataScience - Machine Learning <a
-                                                            href="https://superdatascience.com/machine-learning/">See
-                                                        source page</a></li>
+                                                            href="https://superdatascience.com/machine-learning/">Home
+                                                        Page</a></li>
                                                     <li>National Research University Higher School of Economics -
                                                         Natural Language Processing <a
-                                                                href="https://www.coursera.org/learn/language-processing">See
-                                                            source page</a> - <a href="#">Certificate</a></li>
+                                                                href="https://www.coursera.org/learn/language-processing">Home
+                                                            Page</a></li>
                                                     <li>Neural Networks and Deep Learning by deeplearning.ai on Coursera
-                                                        <a href="https://www.coursera.org/specializations/deep-learning">See
-                                                            source page</a> - <a
-                                                                href="https://www.coursera.org/account/accomplishments/certificate/FNCCS7CPCKES">Certificate</a>
+                                                        <a href="https://www.coursera.org/specializations/deep-learning">Home
+                                                            Page</a>
                                                     </li>
                                                     <li>The Hong Kong University of Science and Technology - Full Stack
                                                         Web and Multiplatform Mobile App Development
-                                                        <a href="https://www.coursera.org/specializations/full-stack-react">See
-                                                            source page</a> - <a href="#">Certificate</a></li>
-                                                    <li>And many many more courses about Android, Web Dev,SQL and etc.
+                                                        <a href="https://www.coursera.org/specializations/full-stack-react">Home
+                                                            Page</a></li>
+                                                    <li>And some others courses about Android, Web Dev,SQL, etc.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -841,19 +862,25 @@
                                         </div>
 
                                         <div class="timeline-label">
-                                            <h2><a href="https://dev.azure.com/NIkronic/_git/Deep-Halftoning" style="color: #fffdfe">
-                                                Implementation of "Deep Context-Aware Descreening and Rescreening of Halftone Images" paper via PyTorch.
+                                            <h2><a href="https://dev.azure.com/NIkronic/_git/Deep-Halftoning"
+                                                   style="color: #fffdfe">
+                                                Implementation of "Deep Context-Aware Descreening and Rescreening of
+                                                Halftone Images" paper via PyTorch.
                                             </a>
                                                 <span>Nov 2018- Present</span></h2>
-                                            <p>This project pertains automated Descreening process. Descreening is the task that we try to
-                                                reconstruct the halftoned image (which is the mandatory process to interact images with printers, scanners,
+                                            <p>This project pertains automated Descreening process. Descreening is the
+                                                task that we try to
+                                                reconstruct the halftoned image (which is the mandatory process to
+                                                interact images with printers, scanners,
                                                 monitors, etc) meanwhile reducing the amount of data loss. <br>
-                                                <a href="https://en.wikipedia.org/wiki/Halftone">wikipedia/halftone</a> -
+                                                <a href="https://en.wikipedia.org/wiki/Halftone">wikipedia/halftone</a>
+                                                -
                                                 <a href="https://doi.org/10.1145/3197517.3201377">Link to paper</a>
                                             </p>
 
                                             <p>
-                                                <strong><em>The authors, have not published any code about this paper.</em></strong>.
+                                                <strong><em>The authors, have not published any code about this
+                                                    paper.</em></strong>.
                                                 So this implementation is the first one and it is fully in <strong>PyTorch</strong>.<br>
                                                 The implementation can be divided into four separate projects as follow:
                                             </p>
@@ -890,7 +917,8 @@
                                         </div>
 
                                         <div class="timeline-label">
-                                            <h2><a href="https://github.com/Nikronic/MDVRP_UoG" style="color: #fffdfe">Optimized MDVRP</a>
+                                            <h2><a href="https://github.com/Nikronic/MDVRP_UoG" style="color: #fffdfe">Optimized
+                                                MDVRP</a>
                                                 <span>Oct 2017- Dec 2017</span></h2>
                                             <p>In this project, we provided some modifications on mutation phase and
                                                 main algorithm and we got better answer from original paper of Multi
@@ -907,11 +935,12 @@
                                             <i class="icon-pen2"></i>
                                         </div>
                                         <div class="timeline-label">
-                                            <h2><a href="https://github.com/Nikronic/K-MCI" style="color: #fffdfe">Adaptive K-MCI</a>
+                                            <h2><a href="https://github.com/Nikronic/K-MCI" style="color: #fffdfe">Adaptive
+                                                K-MCI</a>
                                                 <span>Jan 2018-Present (Sacrificed for greater ideas)</span></h2>
                                             <p>Optimizing Modified Cohort Intelligence via Fuzzy hyper-parameter tuning
                                                 incorporating clustering using K-Means<br>
-                                               The goal is to define a fuzzy system for the hyper-parameters of the
+                                                The goal is to define a fuzzy system for the hyper-parameters of the
                                                 k-MCI evolutionary to help it to obtain better results.</p>
                                         </div>
                                     </div>
@@ -924,19 +953,22 @@
                                             <i class="icon-pen2"></i>
                                         </div>
                                         <div class="timeline-label">
-                                            <h2><a href="https://github.com/Nikronic/Coursera-Machine-Learning" style="color: #fffdfe">Coursera Machine Learning with
+                                            <h2><a href="https://github.com/Nikronic/Coursera-Machine-Learning"
+                                                   style="color: #fffdfe">Coursera Machine Learning with
                                                 Python</a> <span>Dec 2018-Nov 2019</span></h2>
                                             <p>In this project, I implemented all assignments of coursera machine
                                                 learning course by Andrew Ng in python and using native libraries (no
-                                                octave/matlab to python libraries). I have done all mandatory and optional
+                                                octave/matlab to python libraries). I have done all mandatory and
+                                                optional
                                                 assignments in vectorized form for sake of optimization.
                                                 has been done.</p>
-                                            <p>Furthermore, I have rewrite the whole documentation with some improvements
-                                            such as emphasizing on primary sections and generating illustrations dynamically.</p>
+                                            <p>Furthermore, I have rewrite the whole documentation with some
+                                                improvements
+                                                such as emphasizing on primary sections and generating illustrations
+                                                dynamically.</p>
                                         </div>
                                     </div>
                                 </article>
-
 
 
                                 <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
@@ -1122,7 +1154,7 @@
                         <div class="col-md-12 animate-box">
                             <p><a class="btn btn-primary btn-lg btn-load-more" href="#">See all <i
                                     class="icon-th-list"></i></a></p>
-<!--                            Fixme check if there is any blog.html in original template-->
+                            <!--                            Fixme check if there is any blog.html in original template-->
 
                         </div>
                     </div>
