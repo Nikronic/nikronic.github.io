@@ -1535,6 +1535,7 @@
 }
 .icon-twitter2:before {
   content: "\eac6";
+    color: #1DA1F2;
 }
 .icon-vine:before {
   content: "\eac7";
@@ -1709,6 +1710,7 @@
 }
 .icon-stackoverflow:before {
   content: "\eb00";
+    color: #C75E0D;
 }
 .icon-pinterest:before {
   content: "\eb01";
