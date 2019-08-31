@@ -877,33 +877,40 @@
                                                 monitors, etc) meanwhile reducing the amount of data loss. <br>
                                                 <a href="https://en.wikipedia.org/wiki/Halftone">wikipedia/halftone</a>
                                                 -
-                                                <a href="https://doi.org/10.1145/3197517.3201377">Link to paper</a>
+                                                <a href="https://doi.org/10.1145/3197517.3201377">Paper</a>
                                             </p>
 
                                             <p>
                                                 <strong><em>The authors, have not published any code about this
                                                     paper.</em></strong>.
                                                 So this implementation is the first one and it is fully in <strong>PyTorch</strong>.<br>
-                                                The implementation can be divided into four separate projects as follow:
+                                                The implementation can be divided into below separate projects:
                                             </p>
                                             <ul>
                                                 <li><a href="https://github.com/Nikronic/CoarseNet">CoarseNet</a>:
-
+                                                    Modified version of U-Net
+                                                    architecture introduced in "Convolutional Networks for Biomedical Image Segmentation"
+                                                    to work as a low-pass filter by remove halftone patterns.
                                                 </li>
                                                 <li><a href="https://github.com/Nikronic/DetailsNet">DetailsNet</a>:
-
+                                                    A deep CNN generator
+                                                    and two discriminators which are trained simultaneously to improve image quality.
                                                 </li>
                                                 <li><a href="https://github.com/Nikronic/EdgeNet">EdgeNet</a>:
-
+                                                    A simple CNN model to extract canny edge features as it is necessary as part of the
+                                                    end-to-end learning procedure.
                                                 </li>
                                                 <li><a href="https://github.com/Nikronic/ObjectNet">ObjectNet</a>:
-
+                                                    Modified version of "Pyramid Scene Parsing Network" to only return 25 major classified
+                                                    segments instead of 150 to be adapted to halftoning process.
                                                 </li>
                                                 <li><a href="https://github.com/Nikronic/Halftoning-Algorithms">Halftoning-Algorithms</a>:
-
+                                                    Implementation of some of the halftone algorithms provided in most recent digital color haltoning
+                                                    books to prepare data as the input of the whole project.
                                                 </li>
                                                 <li><a href="https://github.com/Nikronic/Places365-Preprocessing">Places365-Preprocessing</a>:
-
+                                                    A custom and extendable implementation of Dataset abstract class in PyTorch to handle
+                                                    lazy loading of a huge data functionality via utilizing CPU for preprocessing and GPU for training.
                                                 </li>
                                             </ul>
                                         </div>
