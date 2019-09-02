@@ -1220,9 +1220,16 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .blog-entry {
     width: 100%;
     float: left;
-    background: #fff;
     margin-bottom: 3em;
+    padding: 10px;
+    background: #006257;
+    color: white;
 }
+
+.desc small {
+    color: wheat;
+}
+
 
 @media screen and (max-width: 768px) {
     .blog-entry {
@@ -1263,7 +1270,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .blog-entry .desc h3 a {
-    color: #000;
+    color: #eaeaea;
     text-decoration: none;
 }
 
