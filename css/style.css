@@ -730,20 +730,22 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     background: #f2f3f7;
     top: 20px;
     bottom: 20px;
-    margin-left: 29px;
+    margin-left: 18px;
 }
 
 .timeline-centered .timeline-entry {
     position: relative;
     margin-top: 5px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-bottom: 10px;
     clear: both;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
     position: relative;
-    margin-left: -20px;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: -29px; */
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
