@@ -5,3 +5,6 @@
 
 ### IDEA folders
 .idea/*
+
+## MAC OS
+.DS_Store
