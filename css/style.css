@@ -8,7 +8,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -143,11 +143,17 @@ figure figcaption {
     text-transform: uppercase;
 }
 
+#colorlib-aside .logo-headline {
+    color: #2c98f0;
+    display: block;
+}
+
 #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: .5em;
+    padding-right: 1rem;
     display: block;
     width: 100%;
 }
@@ -1479,7 +1485,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     position: relative;
     clear: both;
     margin-bottom: 5em;
-    background-image: url("../images/counter_image.jpg");
     background-position: 160px;
 }
 
