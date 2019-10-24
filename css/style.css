@@ -2034,3 +2034,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .panel-heading a {
     background: url("../images/dark-kashi.gif");
 }
+
+.stars {
+    float: right;
+    padding-right: 5%;
+}
