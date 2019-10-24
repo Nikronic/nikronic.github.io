@@ -1485,7 +1485,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     position: relative;
     clear: both;
     margin-bottom: 5em;
-    background-image: url("../images/counter_image.jpg");
     background-position: 160px;
 }
 
