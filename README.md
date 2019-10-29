@@ -2,7 +2,7 @@
 My Resume Website
 
 # License
-Copyright [2018] [Mohammad Doosti Lakhani]
+Copyright [2019] [Mohammad Doosti Lakhani]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

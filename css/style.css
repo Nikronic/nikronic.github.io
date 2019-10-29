@@ -8,7 +8,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -143,11 +143,17 @@ figure figcaption {
     text-transform: uppercase;
 }
 
+#colorlib-aside .logo-headline {
+    color: #2c98f0;
+    display: block;
+}
+
 #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: .5em;
+    padding-right: 1rem;
     display: block;
     width: 100%;
 }
@@ -724,20 +730,22 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     background: #f2f3f7;
     top: 20px;
     bottom: 20px;
-    margin-left: 29px;
+    margin-left: 18px;
 }
 
 .timeline-centered .timeline-entry {
     position: relative;
     margin-top: 5px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-bottom: 10px;
     clear: both;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
     position: relative;
-    margin-left: -20px;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: -29px; */
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
@@ -1479,7 +1487,6 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     position: relative;
     clear: both;
     margin-bottom: 5em;
-    background-image: url("../images/counter_image.jpg");
     background-position: 160px;
 }
 
@@ -2033,4 +2040,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .panel-heading a {
     background: url("../images/dark-kashi.gif");
+}
+
+.stars {
+    float: right;
+    padding-right: 5%;
 }
