@@ -748,6 +748,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     /* margin-left: -29px; */
 }
 
+.icon-loop2:before {
+  content: "\ea2e";
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
     display: block;
     width: 40px;
