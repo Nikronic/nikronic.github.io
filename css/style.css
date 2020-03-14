@@ -1498,7 +1498,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-counters .overlay {
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     bottom: 0;
     top: 0;
