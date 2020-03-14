@@ -230,9 +230,689 @@
             <div id="colorlib-counter" class="colorlib-counters" data-stellar-background-ratio="0.5">
                 <div class="overlay"></div>
                 <div class="colorlib-narrow-content">
-                    <div class="row">
-                    </div>
-                    <div class="row">
+                    <!-- <div class="row"></div> -->
+                    <h3>Github Status</h3>
+                    <div>
+                        <!-- Include the library. -->
+                        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+                        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"><style class="darkreader darkreader--cors" media="screen">.calendar {
+                                        font-family: Helvetica, arial;
+                                        min-height: 243px;
+                                        border: none;
+                                        text-align: center;
+                                        margin: 0 auto;
+                                    }
+
+                                    .calendar-graph text.wday,
+                                    .calendar-graph text.month {
+                                        font-size: 10px;
+                                        fill: #aaa;
+                                    }
+
+                                    .contrib-legend {
+                                        text-align: right;
+                                        padding: 0 14px 10px 0;
+                                        display: inline-block;
+                                        float: right;
+                                    }
+
+                                    .contrib-legend .legend {
+                                        display: inline-block;
+                                        list-style: none;
+                                        margin: 0 5px;
+                                        position: relative;
+                                        bottom: -1px;
+                                        padding: 0;
+                                    }
+
+                                    .contrib-legend .legend li {
+                                        display: inline-block;
+                                        width: 10px;
+                                        height: 10px;
+                                    }
+
+                                    .text-small {
+                                        font-size: 12px;
+                                        color: #767676;
+                                    }
+
+                                    .calendar-graph {
+                                        padding: 5px 0 0;
+                                        text-align: center;
+                                    }
+
+                                    .contrib-column {
+                                        padding: 15px 0;
+                                        text-align: center;
+                                        border-left: none !important;
+                                        border-top: none !important;
+                                        font-size: 11px;
+                                    }
+
+                                    .contrib-column-first {
+                                        border-left: none !important;
+                                    }
+
+                                    .table-column {
+                                        display: table-cell;
+                                        width: 1%;
+                                        padding-right: 10px;
+                                        padding-left: 10px;
+                                        vertical-align: top;
+                                    }
+
+                                    .contrib-number {
+                                        font-weight: 300;
+                                        line-height: 1.3em;
+                                        font-size: 24px;
+                                        display: block;
+                                        color: #94ff98;
+                                    }
+
+                                    .calendar img.spinner {
+                                        width: 70px;
+                                        margin-top: 50px;
+                                        min-height: 70px;
+                                    }
+
+                                    .monospace {
+                                        text-align: center;
+                                        color: #000;
+                                        font-family: monospace;
+                                    }
+
+                                    .monospace a {
+                                        color: #1D75AB;
+                                        text-decoration: none;
+                                    }
+
+                                    .text-muted {
+                                        color: #f9f9f9 !important;
+                                    }
+
+                                    .contrib-footer {
+                                        font-size: 11px;
+                                        padding: 0 10px 12px;
+                                        text-align: left;
+                                        width: 100%;
+                                        box-sizing: border-box;
+                                        height: 26px;
+                                    }
+
+                                    .left.text-muted {
+                                        float: left;
+                                        margin-left: 9px;
+                                        color: #fff6f6;
+                                    }
+                                    .left.text-muted a {
+                                        color: #4078c0;
+                                        text-decoration: none;
+                                    }
+                                    .left.text-muted a:hover,
+                                    .monospace a:hover {
+                                        text-decoration: underline;
+                                    }
+
+                                    h2.f4.text-normal.mb-3 {
+                                        display: none;
+                                    }
+
+                                    .float-left.text-gray {
+                                        float: left;
+                                    }
+                                    #user-activity-overview{
+                                        display:none;
+                                    }</style><style class="darkreader darkreader--sync" media="screen"></style>
+
+                                                                    <!-- Prepare a container for your calendar. -->
+                                                                    <div class="calendar">
+
+                                    <div class="position-relative">
+
+
+
+
+                                        <div class="border border-gray-dark py-2 graph-before-activity-overview">
+                                          <div class="js-calendar-graph mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas calendar-graph height-full text-center" data-graph-url="/users/Nikronic/contributions?to=2020-03-14" data-url="/Nikronic" data-from="2019-03-10 00:00:00 UTC" data-to="2020-03-14 23:59:59 UTC" data-org="">
+
+                                    <svg width="100%" class="js-calendar-graph-svg" viewBox="0 0 828 128">
+                                      <g transform="translate(10, 20)" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:24439592,&quot;target&quot;:&quot;CONTRIBUTION_CALENDAR_SQUARE&quot;,&quot;user_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/users/Nikronic/contributions&quot;}}" data-hydro-click-hmac="7946bbd90eac1e78c78decb2a9557614c930052cb58dc83cbd515034c6163cd4">
+                                          <g transform="translate(0, 0)">
+                                              <rect class="day" width="12" height="12" x="16" y="0" fill="#ebedf0" data-count="0" data-date="2019-03-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="16" y="15" fill="#c6e48b" data-count="2" data-date="2019-03-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="16" y="30" fill="#ebedf0" data-count="0" data-date="2019-03-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="16" y="45" fill="#ebedf0" data-count="0" data-date="2019-03-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="16" y="60" fill="#c6e48b" data-count="1" data-date="2019-03-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="16" y="75" fill="#ebedf0" data-count="0" data-date="2019-03-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="16" y="90" fill="#ebedf0" data-count="0" data-date="2019-03-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(16, 0)">
+                                              <rect class="day" width="12" height="12" x="15" y="0" fill="#ebedf0" data-count="0" data-date="2019-03-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="15" y="15" fill="#ebedf0" data-count="0" data-date="2019-03-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="15" y="30" fill="#ebedf0" data-count="0" data-date="2019-03-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="15" y="45" fill="#ebedf0" data-count="0" data-date="2019-03-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="15" y="60" fill="#7bc96f" data-count="4" data-date="2019-03-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="15" y="75" fill="#ebedf0" data-count="0" data-date="2019-03-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="15" y="90" fill="#ebedf0" data-count="0" data-date="2019-03-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(32, 0)">
+                                              <rect class="day" width="12" height="12" x="14" y="0" fill="#ebedf0" data-count="0" data-date="2019-03-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="14" y="15" fill="#7bc96f" data-count="4" data-date="2019-03-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="14" y="30" fill="#7bc96f" data-count="4" data-date="2019-03-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="14" y="45" fill="#ebedf0" data-count="0" data-date="2019-03-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="14" y="60" fill="#ebedf0" data-count="0" data-date="2019-03-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="14" y="75" fill="#196127" data-count="12" data-date="2019-03-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#a4e8b1;"></rect>
+                                              <rect class="day" width="12" height="12" x="14" y="90" fill="#ebedf0" data-count="0" data-date="2019-03-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(48, 0)">
+                                              <rect class="day" width="12" height="12" x="13" y="0" fill="#c6e48b" data-count="2" data-date="2019-03-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="13" y="15" fill="#ebedf0" data-count="0" data-date="2019-04-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="13" y="30" fill="#ebedf0" data-count="0" data-date="2019-04-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="13" y="45" fill="#239a3b" data-count="8" data-date="2019-04-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#84e398;"></rect>
+                                              <rect class="day" width="12" height="12" x="13" y="60" fill="#ebedf0" data-count="0" data-date="2019-04-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="13" y="75" fill="#196127" data-count="13" data-date="2019-04-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#a4e8b1;"></rect>
+                                              <rect class="day" width="12" height="12" x="13" y="90" fill="#ebedf0" data-count="0" data-date="2019-04-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(64, 0)">
+                                              <rect class="day" width="12" height="12" x="12" y="0" fill="#ebedf0" data-count="0" data-date="2019-04-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="12" y="15" fill="#c6e48b" data-count="1" data-date="2019-04-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="12" y="30" fill="#ebedf0" data-count="0" data-date="2019-04-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="12" y="45" fill="#ebedf0" data-count="0" data-date="2019-04-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="12" y="60" fill="#ebedf0" data-count="0" data-date="2019-04-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="12" y="75" fill="#ebedf0" data-count="0" data-date="2019-04-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="12" y="90" fill="#ebedf0" data-count="0" data-date="2019-04-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(80, 0)">
+                                              <rect class="day" width="12" height="12" x="11" y="0" fill="#ebedf0" data-count="0" data-date="2019-04-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="11" y="15" fill="#ebedf0" data-count="0" data-date="2019-04-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="11" y="30" fill="#ebedf0" data-count="0" data-date="2019-04-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="11" y="45" fill="#ebedf0" data-count="0" data-date="2019-04-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="11" y="60" fill="#ebedf0" data-count="0" data-date="2019-04-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="11" y="75" fill="#ebedf0" data-count="0" data-date="2019-04-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="11" y="90" fill="#ebedf0" data-count="0" data-date="2019-04-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(96, 0)">
+                                              <rect class="day" width="12" height="12" x="10" y="0" fill="#c6e48b" data-count="1" data-date="2019-04-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="10" y="15" fill="#ebedf0" data-count="0" data-date="2019-04-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="10" y="30" fill="#ebedf0" data-count="0" data-date="2019-04-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="10" y="45" fill="#ebedf0" data-count="0" data-date="2019-04-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="10" y="60" fill="#ebedf0" data-count="0" data-date="2019-04-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="10" y="75" fill="#ebedf0" data-count="0" data-date="2019-04-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="10" y="90" fill="#ebedf0" data-count="0" data-date="2019-04-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(112, 0)">
+                                              <rect class="day" width="12" height="12" x="9" y="0" fill="#ebedf0" data-count="0" data-date="2019-04-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="9" y="15" fill="#ebedf0" data-count="0" data-date="2019-04-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="9" y="30" fill="#ebedf0" data-count="0" data-date="2019-04-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="9" y="45" fill="#ebedf0" data-count="0" data-date="2019-05-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="9" y="60" fill="#ebedf0" data-count="0" data-date="2019-05-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="9" y="75" fill="#ebedf0" data-count="0" data-date="2019-05-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="9" y="90" fill="#ebedf0" data-count="0" data-date="2019-05-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(128, 0)">
+                                              <rect class="day" width="12" height="12" x="8" y="0" fill="#ebedf0" data-count="0" data-date="2019-05-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="8" y="15" fill="#ebedf0" data-count="0" data-date="2019-05-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="8" y="30" fill="#ebedf0" data-count="0" data-date="2019-05-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="8" y="45" fill="#ebedf0" data-count="0" data-date="2019-05-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="8" y="60" fill="#ebedf0" data-count="0" data-date="2019-05-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="8" y="75" fill="#ebedf0" data-count="0" data-date="2019-05-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="8" y="90" fill="#ebedf0" data-count="0" data-date="2019-05-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(144, 0)">
+                                              <rect class="day" width="12" height="12" x="7" y="0" fill="#ebedf0" data-count="0" data-date="2019-05-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="7" y="15" fill="#ebedf0" data-count="0" data-date="2019-05-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="7" y="30" fill="#ebedf0" data-count="0" data-date="2019-05-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="7" y="45" fill="#ebedf0" data-count="0" data-date="2019-05-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="7" y="60" fill="#ebedf0" data-count="0" data-date="2019-05-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="7" y="75" fill="#ebedf0" data-count="0" data-date="2019-05-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="7" y="90" fill="#ebedf0" data-count="0" data-date="2019-05-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(160, 0)">
+                                              <rect class="day" width="12" height="12" x="6" y="0" fill="#c6e48b" data-count="1" data-date="2019-05-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="6" y="15" fill="#ebedf0" data-count="0" data-date="2019-05-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="6" y="30" fill="#ebedf0" data-count="0" data-date="2019-05-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="6" y="45" fill="#ebedf0" data-count="0" data-date="2019-05-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="6" y="60" fill="#ebedf0" data-count="0" data-date="2019-05-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="6" y="75" fill="#196127" data-count="31" data-date="2019-05-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#a4e8b1;"></rect>
+                                              <rect class="day" width="12" height="12" x="6" y="90" fill="#ebedf0" data-count="0" data-date="2019-05-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(176, 0)">
+                                              <rect class="day" width="12" height="12" x="5" y="0" fill="#7bc96f" data-count="4" data-date="2019-05-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="5" y="15" fill="#196127" data-count="14" data-date="2019-05-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#a4e8b1;"></rect>
+                                              <rect class="day" width="12" height="12" x="5" y="30" fill="#ebedf0" data-count="0" data-date="2019-05-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="5" y="45" fill="#c6e48b" data-count="1" data-date="2019-05-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="5" y="60" fill="#ebedf0" data-count="0" data-date="2019-05-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="5" y="75" fill="#ebedf0" data-count="0" data-date="2019-05-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="5" y="90" fill="#ebedf0" data-count="0" data-date="2019-06-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(192, 0)">
+                                              <rect class="day" width="12" height="12" x="4" y="0" fill="#ebedf0" data-count="0" data-date="2019-06-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="4" y="15" fill="#ebedf0" data-count="0" data-date="2019-06-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="4" y="30" fill="#ebedf0" data-count="0" data-date="2019-06-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="4" y="45" fill="#ebedf0" data-count="0" data-date="2019-06-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="4" y="60" fill="#ebedf0" data-count="0" data-date="2019-06-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="4" y="75" fill="#ebedf0" data-count="0" data-date="2019-06-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="4" y="90" fill="#ebedf0" data-count="0" data-date="2019-06-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(208, 0)">
+                                              <rect class="day" width="12" height="12" x="3" y="0" fill="#ebedf0" data-count="0" data-date="2019-06-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="3" y="15" fill="#c6e48b" data-count="2" data-date="2019-06-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="3" y="30" fill="#ebedf0" data-count="0" data-date="2019-06-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="3" y="45" fill="#ebedf0" data-count="0" data-date="2019-06-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="3" y="60" fill="#ebedf0" data-count="0" data-date="2019-06-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="3" y="75" fill="#ebedf0" data-count="0" data-date="2019-06-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="3" y="90" fill="#ebedf0" data-count="0" data-date="2019-06-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(224, 0)">
+                                              <rect class="day" width="12" height="12" x="2" y="0" fill="#ebedf0" data-count="0" data-date="2019-06-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="2" y="15" fill="#c6e48b" data-count="1" data-date="2019-06-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="2" y="30" fill="#7bc96f" data-count="5" data-date="2019-06-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="2" y="45" fill="#ebedf0" data-count="0" data-date="2019-06-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="2" y="60" fill="#ebedf0" data-count="0" data-date="2019-06-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="2" y="75" fill="#ebedf0" data-count="0" data-date="2019-06-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="2" y="90" fill="#ebedf0" data-count="0" data-date="2019-06-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(240, 0)">
+                                              <rect class="day" width="12" height="12" x="1" y="0" fill="#ebedf0" data-count="0" data-date="2019-06-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="1" y="15" fill="#ebedf0" data-count="0" data-date="2019-06-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="1" y="30" fill="#ebedf0" data-count="0" data-date="2019-06-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="1" y="45" fill="#ebedf0" data-count="0" data-date="2019-06-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="1" y="60" fill="#c6e48b" data-count="2" data-date="2019-06-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="1" y="75" fill="#c6e48b" data-count="1" data-date="2019-06-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="1" y="90" fill="#ebedf0" data-count="0" data-date="2019-06-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(256, 0)">
+                                              <rect class="day" width="12" height="12" x="0" y="0" fill="#ebedf0" data-count="0" data-date="2019-06-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="0" y="15" fill="#ebedf0" data-count="0" data-date="2019-07-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="0" y="30" fill="#ebedf0" data-count="0" data-date="2019-07-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="0" y="45" fill="#ebedf0" data-count="0" data-date="2019-07-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="0" y="60" fill="#ebedf0" data-count="0" data-date="2019-07-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="0" y="75" fill="#c6e48b" data-count="1" data-date="2019-07-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="0" y="90" fill="#c6e48b" data-count="1" data-date="2019-07-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(272, 0)">
+                                              <rect class="day" width="12" height="12" x="-1" y="0" fill="#ebedf0" data-count="0" data-date="2019-07-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-1" y="15" fill="#c6e48b" data-count="2" data-date="2019-07-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-1" y="30" fill="#ebedf0" data-count="0" data-date="2019-07-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-1" y="45" fill="#ebedf0" data-count="0" data-date="2019-07-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-1" y="60" fill="#ebedf0" data-count="0" data-date="2019-07-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-1" y="75" fill="#ebedf0" data-count="0" data-date="2019-07-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-1" y="90" fill="#ebedf0" data-count="0" data-date="2019-07-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(288, 0)">
+                                              <rect class="day" width="12" height="12" x="-2" y="0" fill="#ebedf0" data-count="0" data-date="2019-07-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-2" y="15" fill="#ebedf0" data-count="0" data-date="2019-07-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-2" y="30" fill="#c6e48b" data-count="2" data-date="2019-07-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-2" y="45" fill="#ebedf0" data-count="0" data-date="2019-07-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-2" y="60" fill="#ebedf0" data-count="0" data-date="2019-07-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-2" y="75" fill="#ebedf0" data-count="0" data-date="2019-07-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-2" y="90" fill="#ebedf0" data-count="0" data-date="2019-07-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(304, 0)">
+                                              <rect class="day" width="12" height="12" x="-3" y="0" fill="#ebedf0" data-count="0" data-date="2019-07-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-3" y="15" fill="#ebedf0" data-count="0" data-date="2019-07-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-3" y="30" fill="#ebedf0" data-count="0" data-date="2019-07-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-3" y="45" fill="#ebedf0" data-count="0" data-date="2019-07-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-3" y="60" fill="#c6e48b" data-count="1" data-date="2019-07-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-3" y="75" fill="#ebedf0" data-count="0" data-date="2019-07-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-3" y="90" fill="#ebedf0" data-count="0" data-date="2019-07-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(320, 0)">
+                                              <rect class="day" width="12" height="12" x="-4" y="0" fill="#ebedf0" data-count="0" data-date="2019-07-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-4" y="15" fill="#ebedf0" data-count="0" data-date="2019-07-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-4" y="30" fill="#ebedf0" data-count="0" data-date="2019-07-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-4" y="45" fill="#ebedf0" data-count="0" data-date="2019-07-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-4" y="60" fill="#ebedf0" data-count="0" data-date="2019-08-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-4" y="75" fill="#ebedf0" data-count="0" data-date="2019-08-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-4" y="90" fill="#ebedf0" data-count="0" data-date="2019-08-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(336, 0)">
+                                              <rect class="day" width="12" height="12" x="-5" y="0" fill="#ebedf0" data-count="0" data-date="2019-08-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-5" y="15" fill="#ebedf0" data-count="0" data-date="2019-08-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-5" y="30" fill="#ebedf0" data-count="0" data-date="2019-08-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-5" y="45" fill="#ebedf0" data-count="0" data-date="2019-08-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-5" y="60" fill="#ebedf0" data-count="0" data-date="2019-08-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-5" y="75" fill="#ebedf0" data-count="0" data-date="2019-08-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-5" y="90" fill="#c6e48b" data-count="1" data-date="2019-08-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(352, 0)">
+                                              <rect class="day" width="12" height="12" x="-6" y="0" fill="#ebedf0" data-count="0" data-date="2019-08-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-6" y="15" fill="#ebedf0" data-count="0" data-date="2019-08-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-6" y="30" fill="#ebedf0" data-count="0" data-date="2019-08-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-6" y="45" fill="#ebedf0" data-count="0" data-date="2019-08-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-6" y="60" fill="#ebedf0" data-count="0" data-date="2019-08-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-6" y="75" fill="#ebedf0" data-count="0" data-date="2019-08-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-6" y="90" fill="#ebedf0" data-count="0" data-date="2019-08-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(368, 0)">
+                                              <rect class="day" width="12" height="12" x="-7" y="0" fill="#ebedf0" data-count="0" data-date="2019-08-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-7" y="15" fill="#ebedf0" data-count="0" data-date="2019-08-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-7" y="30" fill="#ebedf0" data-count="0" data-date="2019-08-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-7" y="45" fill="#ebedf0" data-count="0" data-date="2019-08-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-7" y="60" fill="#ebedf0" data-count="0" data-date="2019-08-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-7" y="75" fill="#ebedf0" data-count="0" data-date="2019-08-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-7" y="90" fill="#ebedf0" data-count="0" data-date="2019-08-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(384, 0)">
+                                              <rect class="day" width="12" height="12" x="-8" y="0" fill="#ebedf0" data-count="0" data-date="2019-08-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-8" y="15" fill="#ebedf0" data-count="0" data-date="2019-08-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-8" y="30" fill="#ebedf0" data-count="0" data-date="2019-08-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-8" y="45" fill="#ebedf0" data-count="0" data-date="2019-08-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-8" y="60" fill="#ebedf0" data-count="0" data-date="2019-08-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-8" y="75" fill="#ebedf0" data-count="0" data-date="2019-08-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-8" y="90" fill="#ebedf0" data-count="0" data-date="2019-08-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(400, 0)">
+                                              <rect class="day" width="12" height="12" x="-9" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-9" y="15" fill="#ebedf0" data-count="0" data-date="2019-09-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-9" y="30" fill="#c6e48b" data-count="2" data-date="2019-09-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-9" y="45" fill="#c6e48b" data-count="1" data-date="2019-09-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-9" y="60" fill="#7bc96f" data-count="5" data-date="2019-09-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="-9" y="75" fill="#ebedf0" data-count="0" data-date="2019-09-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-9" y="90" fill="#ebedf0" data-count="0" data-date="2019-09-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(416, 0)">
+                                              <rect class="day" width="12" height="12" x="-10" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-10" y="15" fill="#ebedf0" data-count="0" data-date="2019-09-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-10" y="30" fill="#ebedf0" data-count="0" data-date="2019-09-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-10" y="45" fill="#ebedf0" data-count="0" data-date="2019-09-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-10" y="60" fill="#ebedf0" data-count="0" data-date="2019-09-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-10" y="75" fill="#ebedf0" data-count="0" data-date="2019-09-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-10" y="90" fill="#ebedf0" data-count="0" data-date="2019-09-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(432, 0)">
+                                              <rect class="day" width="12" height="12" x="-11" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-11" y="15" fill="#ebedf0" data-count="0" data-date="2019-09-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-11" y="30" fill="#ebedf0" data-count="0" data-date="2019-09-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-11" y="45" fill="#ebedf0" data-count="0" data-date="2019-09-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-11" y="60" fill="#ebedf0" data-count="0" data-date="2019-09-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-11" y="75" fill="#ebedf0" data-count="0" data-date="2019-09-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-11" y="90" fill="#ebedf0" data-count="0" data-date="2019-09-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(448, 0)">
+                                              <rect class="day" width="12" height="12" x="-12" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-12" y="15" fill="#ebedf0" data-count="0" data-date="2019-09-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-12" y="30" fill="#ebedf0" data-count="0" data-date="2019-09-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-12" y="45" fill="#ebedf0" data-count="0" data-date="2019-09-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-12" y="60" fill="#ebedf0" data-count="0" data-date="2019-09-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-12" y="75" fill="#ebedf0" data-count="0" data-date="2019-09-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-12" y="90" fill="#ebedf0" data-count="0" data-date="2019-09-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(464, 0)">
+                                              <rect class="day" width="12" height="12" x="-13" y="0" fill="#ebedf0" data-count="0" data-date="2019-09-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-13" y="15" fill="#c6e48b" data-count="3" data-date="2019-09-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-13" y="30" fill="#c6e48b" data-count="1" data-date="2019-10-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-13" y="45" fill="#ebedf0" data-count="0" data-date="2019-10-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-13" y="60" fill="#ebedf0" data-count="0" data-date="2019-10-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-13" y="75" fill="#ebedf0" data-count="0" data-date="2019-10-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-13" y="90" fill="#ebedf0" data-count="0" data-date="2019-10-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(480, 0)">
+                                              <rect class="day" width="12" height="12" x="-14" y="0" fill="#ebedf0" data-count="0" data-date="2019-10-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-14" y="15" fill="#c6e48b" data-count="2" data-date="2019-10-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-14" y="30" fill="#7bc96f" data-count="4" data-date="2019-10-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="-14" y="45" fill="#ebedf0" data-count="0" data-date="2019-10-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-14" y="60" fill="#c6e48b" data-count="1" data-date="2019-10-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-14" y="75" fill="#c6e48b" data-count="1" data-date="2019-10-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-14" y="90" fill="#c6e48b" data-count="1" data-date="2019-10-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(496, 0)">
+                                              <rect class="day" width="12" height="12" x="-15" y="0" fill="#c6e48b" data-count="1" data-date="2019-10-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-15" y="15" fill="#ebedf0" data-count="0" data-date="2019-10-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-15" y="30" fill="#ebedf0" data-count="0" data-date="2019-10-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-15" y="45" fill="#ebedf0" data-count="0" data-date="2019-10-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-15" y="60" fill="#c6e48b" data-count="1" data-date="2019-10-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-15" y="75" fill="#ebedf0" data-count="0" data-date="2019-10-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-15" y="90" fill="#ebedf0" data-count="0" data-date="2019-10-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(512, 0)">
+                                              <rect class="day" width="12" height="12" x="-16" y="0" fill="#ebedf0" data-count="0" data-date="2019-10-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-16" y="15" fill="#c6e48b" data-count="1" data-date="2019-10-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-16" y="30" fill="#ebedf0" data-count="0" data-date="2019-10-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-16" y="45" fill="#ebedf0" data-count="0" data-date="2019-10-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-16" y="60" fill="#ebedf0" data-count="0" data-date="2019-10-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-16" y="75" fill="#c6e48b" data-count="3" data-date="2019-10-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-16" y="90" fill="#ebedf0" data-count="0" data-date="2019-10-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(528, 0)">
+                                              <rect class="day" width="12" height="12" x="-17" y="0" fill="#ebedf0" data-count="0" data-date="2019-10-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-17" y="15" fill="#c6e48b" data-count="1" data-date="2019-10-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-17" y="30" fill="#c6e48b" data-count="1" data-date="2019-10-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-17" y="45" fill="#ebedf0" data-count="0" data-date="2019-10-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-17" y="60" fill="#ebedf0" data-count="0" data-date="2019-10-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-17" y="75" fill="#ebedf0" data-count="0" data-date="2019-11-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-17" y="90" fill="#c6e48b" data-count="1" data-date="2019-11-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(544, 0)">
+                                              <rect class="day" width="12" height="12" x="-18" y="0" fill="#ebedf0" data-count="0" data-date="2019-11-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-18" y="15" fill="#7bc96f" data-count="4" data-date="2019-11-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="-18" y="30" fill="#ebedf0" data-count="0" data-date="2019-11-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-18" y="45" fill="#ebedf0" data-count="0" data-date="2019-11-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-18" y="60" fill="#ebedf0" data-count="0" data-date="2019-11-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-18" y="75" fill="#ebedf0" data-count="0" data-date="2019-11-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-18" y="90" fill="#ebedf0" data-count="0" data-date="2019-11-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(560, 0)">
+                                              <rect class="day" width="12" height="12" x="-19" y="0" fill="#ebedf0" data-count="0" data-date="2019-11-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-19" y="15" fill="#c6e48b" data-count="1" data-date="2019-11-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-19" y="30" fill="#ebedf0" data-count="0" data-date="2019-11-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-19" y="45" fill="#ebedf0" data-count="0" data-date="2019-11-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-19" y="60" fill="#c6e48b" data-count="1" data-date="2019-11-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-19" y="75" fill="#ebedf0" data-count="0" data-date="2019-11-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-19" y="90" fill="#ebedf0" data-count="0" data-date="2019-11-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(576, 0)">
+                                              <rect class="day" width="12" height="12" x="-20" y="0" fill="#ebedf0" data-count="0" data-date="2019-11-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-20" y="15" fill="#ebedf0" data-count="0" data-date="2019-11-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-20" y="30" fill="#ebedf0" data-count="0" data-date="2019-11-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-20" y="45" fill="#c6e48b" data-count="1" data-date="2019-11-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-20" y="60" fill="#c6e48b" data-count="3" data-date="2019-11-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-20" y="75" fill="#ebedf0" data-count="0" data-date="2019-11-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-20" y="90" fill="#ebedf0" data-count="0" data-date="2019-11-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(592, 0)">
+                                              <rect class="day" width="12" height="12" x="-21" y="0" fill="#ebedf0" data-count="0" data-date="2019-11-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-21" y="15" fill="#c6e48b" data-count="3" data-date="2019-11-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-21" y="30" fill="#c6e48b" data-count="1" data-date="2019-11-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-21" y="45" fill="#ebedf0" data-count="0" data-date="2019-11-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-21" y="60" fill="#ebedf0" data-count="0" data-date="2019-11-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-21" y="75" fill="#ebedf0" data-count="0" data-date="2019-11-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-21" y="90" fill="#ebedf0" data-count="0" data-date="2019-11-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(608, 0)">
+                                              <rect class="day" width="12" height="12" x="-22" y="0" fill="#c6e48b" data-count="3" data-date="2019-12-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-22" y="15" fill="#c6e48b" data-count="1" data-date="2019-12-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-22" y="30" fill="#ebedf0" data-count="0" data-date="2019-12-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-22" y="45" fill="#7bc96f" data-count="4" data-date="2019-12-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="-22" y="60" fill="#ebedf0" data-count="0" data-date="2019-12-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-22" y="75" fill="#ebedf0" data-count="0" data-date="2019-12-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-22" y="90" fill="#c6e48b" data-count="1" data-date="2019-12-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(624, 0)">
+                                              <rect class="day" width="12" height="12" x="-23" y="0" fill="#ebedf0" data-count="0" data-date="2019-12-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-23" y="15" fill="#ebedf0" data-count="0" data-date="2019-12-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-23" y="30" fill="#ebedf0" data-count="0" data-date="2019-12-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-23" y="45" fill="#ebedf0" data-count="0" data-date="2019-12-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-23" y="60" fill="#ebedf0" data-count="0" data-date="2019-12-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-23" y="75" fill="#ebedf0" data-count="0" data-date="2019-12-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-23" y="90" fill="#ebedf0" data-count="0" data-date="2019-12-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(640, 0)">
+                                              <rect class="day" width="12" height="12" x="-24" y="0" fill="#ebedf0" data-count="0" data-date="2019-12-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-24" y="15" fill="#ebedf0" data-count="0" data-date="2019-12-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-24" y="30" fill="#ebedf0" data-count="0" data-date="2019-12-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-24" y="45" fill="#ebedf0" data-count="0" data-date="2019-12-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-24" y="60" fill="#ebedf0" data-count="0" data-date="2019-12-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-24" y="75" fill="#ebedf0" data-count="0" data-date="2019-12-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-24" y="90" fill="#ebedf0" data-count="0" data-date="2019-12-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(656, 0)">
+                                              <rect class="day" width="12" height="12" x="-25" y="0" fill="#ebedf0" data-count="0" data-date="2019-12-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-25" y="15" fill="#ebedf0" data-count="0" data-date="2019-12-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-25" y="30" fill="#ebedf0" data-count="0" data-date="2019-12-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-25" y="45" fill="#ebedf0" data-count="0" data-date="2019-12-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-25" y="60" fill="#ebedf0" data-count="0" data-date="2019-12-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-25" y="75" fill="#ebedf0" data-count="0" data-date="2019-12-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-25" y="90" fill="#ebedf0" data-count="0" data-date="2019-12-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(672, 0)">
+                                              <rect class="day" width="12" height="12" x="-26" y="0" fill="#ebedf0" data-count="0" data-date="2019-12-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-26" y="15" fill="#ebedf0" data-count="0" data-date="2019-12-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-26" y="30" fill="#ebedf0" data-count="0" data-date="2019-12-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-26" y="45" fill="#ebedf0" data-count="0" data-date="2020-01-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-26" y="60" fill="#ebedf0" data-count="0" data-date="2020-01-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-26" y="75" fill="#c6e48b" data-count="1" data-date="2020-01-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-26" y="90" fill="#c6e48b" data-count="1" data-date="2020-01-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(688, 0)">
+                                              <rect class="day" width="12" height="12" x="-27" y="0" fill="#ebedf0" data-count="0" data-date="2020-01-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-27" y="15" fill="#ebedf0" data-count="0" data-date="2020-01-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-27" y="30" fill="#ebedf0" data-count="0" data-date="2020-01-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-27" y="45" fill="#ebedf0" data-count="0" data-date="2020-01-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-27" y="60" fill="#ebedf0" data-count="0" data-date="2020-01-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-27" y="75" fill="#c6e48b" data-count="1" data-date="2020-01-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-27" y="90" fill="#ebedf0" data-count="0" data-date="2020-01-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(704, 0)">
+                                              <rect class="day" width="12" height="12" x="-28" y="0" fill="#ebedf0" data-count="0" data-date="2020-01-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-28" y="15" fill="#ebedf0" data-count="0" data-date="2020-01-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-28" y="30" fill="#ebedf0" data-count="0" data-date="2020-01-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-28" y="45" fill="#ebedf0" data-count="0" data-date="2020-01-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-28" y="60" fill="#ebedf0" data-count="0" data-date="2020-01-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-28" y="75" fill="#ebedf0" data-count="0" data-date="2020-01-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-28" y="90" fill="#ebedf0" data-count="0" data-date="2020-01-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(720, 0)">
+                                              <rect class="day" width="12" height="12" x="-29" y="0" fill="#ebedf0" data-count="0" data-date="2020-01-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-29" y="15" fill="#ebedf0" data-count="0" data-date="2020-01-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-29" y="30" fill="#ebedf0" data-count="0" data-date="2020-01-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-29" y="45" fill="#c6e48b" data-count="3" data-date="2020-01-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-29" y="60" fill="#ebedf0" data-count="0" data-date="2020-01-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-29" y="75" fill="#ebedf0" data-count="0" data-date="2020-01-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-29" y="90" fill="#c6e48b" data-count="1" data-date="2020-01-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <g transform="translate(736, 0)">
+                                              <rect class="day" width="12" height="12" x="-30" y="0" fill="#ebedf0" data-count="0" data-date="2020-01-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-30" y="15" fill="#ebedf0" data-count="0" data-date="2020-01-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-30" y="30" fill="#ebedf0" data-count="0" data-date="2020-01-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-30" y="45" fill="#ebedf0" data-count="0" data-date="2020-01-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-30" y="60" fill="#ebedf0" data-count="0" data-date="2020-01-30" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-30" y="75" fill="#ebedf0" data-count="0" data-date="2020-01-31" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-30" y="90" fill="#ebedf0" data-count="0" data-date="2020-02-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(752, 0)">
+                                              <rect class="day" width="12" height="12" x="-31" y="0" fill="#c6e48b" data-count="1" data-date="2020-02-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-31" y="15" fill="#c6e48b" data-count="1" data-date="2020-02-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-31" y="30" fill="#ebedf0" data-count="0" data-date="2020-02-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-31" y="45" fill="#ebedf0" data-count="0" data-date="2020-02-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-31" y="60" fill="#c6e48b" data-count="1" data-date="2020-02-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-31" y="75" fill="#ebedf0" data-count="0" data-date="2020-02-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-31" y="90" fill="#ebedf0" data-count="0" data-date="2020-02-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(768, 0)">
+                                              <rect class="day" width="12" height="12" x="-32" y="0" fill="#ebedf0" data-count="0" data-date="2020-02-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-32" y="15" fill="#ebedf0" data-count="0" data-date="2020-02-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-32" y="30" fill="#ebedf0" data-count="0" data-date="2020-02-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-32" y="45" fill="#ebedf0" data-count="0" data-date="2020-02-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-32" y="60" fill="#ebedf0" data-count="0" data-date="2020-02-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-32" y="75" fill="#ebedf0" data-count="0" data-date="2020-02-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-32" y="90" fill="#ebedf0" data-count="0" data-date="2020-02-15" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(784, 0)">
+                                              <rect class="day" width="12" height="12" x="-33" y="0" fill="#ebedf0" data-count="0" data-date="2020-02-16" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-33" y="15" fill="#ebedf0" data-count="0" data-date="2020-02-17" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-33" y="30" fill="#ebedf0" data-count="0" data-date="2020-02-18" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-33" y="45" fill="#ebedf0" data-count="0" data-date="2020-02-19" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-33" y="60" fill="#ebedf0" data-count="0" data-date="2020-02-20" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-33" y="75" fill="#ebedf0" data-count="0" data-date="2020-02-21" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-33" y="90" fill="#ebedf0" data-count="0" data-date="2020-02-22" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(800, 0)">
+                                              <rect class="day" width="12" height="12" x="-34" y="0" fill="#ebedf0" data-count="0" data-date="2020-02-23" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-34" y="15" fill="#ebedf0" data-count="0" data-date="2020-02-24" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-34" y="30" fill="#ebedf0" data-count="0" data-date="2020-02-25" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-34" y="45" fill="#ebedf0" data-count="0" data-date="2020-02-26" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-34" y="60" fill="#ebedf0" data-count="0" data-date="2020-02-27" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-34" y="75" fill="#ebedf0" data-count="0" data-date="2020-02-28" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-34" y="90" fill="#ebedf0" data-count="0" data-date="2020-02-29" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(816, 0)">
+                                              <rect class="day" width="12" height="12" x="-35" y="0" fill="#ebedf0" data-count="0" data-date="2020-03-01" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-35" y="15" fill="#c6e48b" data-count="1" data-date="2020-03-02" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-35" y="30" fill="#ebedf0" data-count="0" data-date="2020-03-03" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-35" y="45" fill="#ebedf0" data-count="0" data-date="2020-03-04" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-35" y="60" fill="#ebedf0" data-count="0" data-date="2020-03-05" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-35" y="75" fill="#ebedf0" data-count="0" data-date="2020-03-06" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-35" y="90" fill="#ebedf0" data-count="0" data-date="2020-03-07" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                          </g>
+                                          <g transform="translate(832, 0)">
+                                              <rect class="day" width="12" height="12" x="-36" y="0" fill="#ebedf0" data-count="0" data-date="2020-03-08" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-36" y="15" fill="#ebedf0" data-count="0" data-date="2020-03-09" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-36" y="30" fill="#7bc96f" data-count="4" data-date="2020-03-10" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#8acf7f;"></rect>
+                                              <rect class="day" width="12" height="12" x="-36" y="45" fill="#ebedf0" data-count="0" data-date="2020-03-11" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-36" y="60" fill="#c6e48b" data-count="2" data-date="2020-03-12" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                              <rect class="day" width="12" height="12" x="-36" y="75" fill="#ebedf0" data-count="0" data-date="2020-03-13" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#efeeec;"></rect>
+                                              <rect class="day" width="12" height="12" x="-36" y="90" fill="#c6e48b" data-count="1" data-date="2020-03-14" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#c6e48b;"></rect>
+                                          </g>
+                                          <text x="16" y="-9" class="month">Mar</text>
+                                          <text x="76" y="-9" class="month">Apr</text>
+                                          <text x="136" y="-9" class="month">May</text>
+                                          <text x="196" y="-9" class="month">Jun</text>
+                                          <text x="271" y="-9" class="month">Jul</text>
+                                          <text x="331" y="-9" class="month">Aug</text>
+                                          <text x="391" y="-9" class="month">Sep</text>
+                                          <text x="466" y="-9" class="month">Oct</text>
+                                          <text x="526" y="-9" class="month">Nov</text>
+                                          <text x="586" y="-9" class="month">Dec</text>
+                                          <text x="661" y="-9" class="month">Jan</text>
+                                          <text x="721" y="-9" class="month">Feb</text>
+                                          <text x="781" y="-9" class="month">Mar</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="8" style="display: none;">Sun</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="25">Mon</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="32" style="display: none;">Tue</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="56">Wed</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="57" style="display: none;">Thu</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="85">Fri</text>
+                                        <text text-anchor="start" class="wday" dx="-10" dy="81" style="display: none;">Sat</text>
+                                    </g></svg>
+
+                                          </div>
+                                          <div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1">
+                                            <div class="float-left text-gray">Summary of pull requests, issues opened, and commits made by <a href="https://github.com/Nikronic" target="blank">@Nikronic</a></div>
+                                            <div class="contrib-legend text-gray" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">
+                                              Less
+                                              <ul class="legend">
+                                                <li style="background-color: rgb(235, 237, 240); --darkreader-inline-bgcolor:#1e2021;" data-darkreader-inline-bgcolor=""></li>
+                                                  <li style="background-color: rgb(198, 228, 139); --darkreader-inline-bgcolor:#496217;" data-darkreader-inline-bgcolor=""></li>
+                                                  <li style="background-color: rgb(123, 201, 111); --darkreader-inline-bgcolor:#2e6425;" data-darkreader-inline-bgcolor=""></li>
+                                                  <li style="background-color: rgb(35, 154, 59); --darkreader-inline-bgcolor:#218f37;" data-darkreader-inline-bgcolor=""></li>
+                                                  <li style="background-color: rgb(25, 97, 39); --darkreader-inline-bgcolor:#196127;" data-darkreader-inline-bgcolor=""></li>
+                                              </ul>
+                                              More
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="contrib-column contrib-column-first table-column"><span class="text-muted">Contributions in the last year</span>
+                                                                   <span class="contrib-number">193 total</span>
+                                                                   <span class="text-muted">Mar 15, 2019 – Mar 14, 2020</span></div><div class="contrib-column table-column"><span class="text-muted">Longest streak</span>
+                                                                   <span class="contrib-number">4 days</span>
+                                                                   <span class="text-muted">October 10 – October 13</span></div><div class="contrib-column table-column"><span class="text-muted">Current streak</span>
+                                                                   <span class="contrib-number">1 day</span>
+                                                                   <span class="text-muted">March 14 – March 14</span></div></div>
+
+                                                                    <script>
+
+                                                                        // or enable responsive functionality
+                                                                        GitHubCalendar(".calendar", "Nikronic", { responsive: true });
+                                                                    </script>
+                                                            </div>
+                    <!-- <div class="row">
                         <div class="col-md-4 text-center animate-box">
                             <span class="colorlib-counter js-counter" data-from="0" data-to="18" data-speed="1000"
                                   data-refresh-interval="20"></span>
@@ -248,7 +928,7 @@
                                   data-refresh-interval="50"></span>
                             <span class="colorlib-counter-label">Github Forks</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
