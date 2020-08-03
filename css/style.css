@@ -28,6 +28,7 @@ body {
 }
 
 
+
 i {
     color: #F5F5F6;
 }
@@ -1620,6 +1621,17 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .pagination {
     padding: 0;
+}
+
+.blinking {
+    animation:blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #006257;    }
+    49%{    color: #006257; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: #006257;    }
 }
 
 .pagination li {
