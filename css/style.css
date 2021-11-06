@@ -544,7 +544,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-services,
 .colorlib-contact {
     padding-top: 4em;
-    padding-bottom: 9em;
+    /* padding-bottom: 9em; */
     clear: both;
     width: 100%;
     display: block;
@@ -616,7 +616,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .hire {
     padding: 2em;
-    background: #f9bf3f;
+    background: #006257;
 }
 
 .hire h2 {
