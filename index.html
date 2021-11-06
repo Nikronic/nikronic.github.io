@@ -39,6 +39,8 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -175,66 +177,107 @@
                                         </div>
 
                                         <div class="timeline-label">
-                                            <h2><a href="https://github.com/Nikronic/Deep-Halftoning"
+                                            <h2><a href="blog.html"  
                                                    style="color: #fffdfe">
-                                                Implementation of "Deep Context-Aware Descreening and Rescreening of
-                                                Halftone Images" paper via PyTorch.
+                                                   Topology Optimization via Frequency Tuning of Neural Design Representations
+                                                </a>
+                                                <!-- TODO: add blog for this paper -->
+                                                <br><span><strong>Nikan Doosti</strong>,
+                                                     <a href="https://julianpanetta.com/">Julian Panetta</a>, 
+                                                     <a href="https://cam.mpi-inf.mpg.de/?view=people_vahid">Vahid Babaei</a></span>
+                                            </h2>
+                                            
+                                            <a class="blog-img" href="publications/topopt-ndr/topopt-ndr-teaser.png">
+                                                <img alt="a 3D rendered bridge constructed using proposed method" class="img-responsive" 
+                                                src="publications/topopt-ndr/topopt-ndr-teaser.png">
                                             </a>
-                                                <span>Nov 2018 - Aug 2019</span></h2>
-                                            <p>This project pertains automated Descreening process. Descreening is the
-                                                task that we try to
-                                                reconstruct the <a href="https://en.wikipedia.org/wiki/Halftone">halftoned</a> image (which is the mandatory process to
-                                                interact images with printers, scanners,
-                                                monitors, etc) meanwhile reducing the amount of data loss.
-                                                <a href="https://doi.org/10.1145/3197517.3201377">(Authors' Paper)</a>
-                                            </p>
 
+                                            <h4>Abstract</h4>
                                             <p>
-                                                <strong><em>The authors, have not published any code about this
-                                                    paper.</em></strong>.
-                                                So this implementation is the first one and it is fully in <strong>PyTorch</strong>.<br>
-                                                The implementation can be divided into below separate projects:
+                                                Structural topology optimization seeks to distribute material throughout a design domain 
+                                                in a way that maximizes a certain performance goal. In this work, we solve the topology 
+                                                optimization problem by parameterizing the designs via recently introduced coordinate-based 
+                                                neural networks. Specifically, we show that networks with Fourier feature mapping can achieve 
+                                                state-of-the-art performance. Our method enables the realization of a range of designs using 
+                                                a single mesh via tuning the frequency content of the solutions independently of the finite element 
+                                                discretization grid. This frequency control offers attractive properties, such as mesh-independent 
+                                                results and sub-pixel filtering that leads to appropriate designs for upsampling. We demonstrate 
+                                                our method on the compliance minimization problem, optimizing for the stiffest possible structure 
+                                                within a weight budget for a prescribed set of loads.
                                             </p>
-                                            <ul>
-                                                <li><a href="https://github.com/Nikronic/CoarseNet">CoarseNet</a>:
-                                                    Modified version of U-Net
-                                                    architecture introduced in "Convolutional Networks for Biomedical
-                                                    Image Segmentation"
-                                                    to work as a low-pass filter by remove halftone patterns.
-                                                </li>
-                                                <li><a href="https://github.com/Nikronic/DetailsNet">DetailsNet</a>:
-                                                    A deep CNN generator
-                                                    and two discriminators which are trained simultaneously to improve
-                                                    image quality.
-                                                </li>
-                                                <li><a href="https://github.com/Nikronic/EdgeNet">EdgeNet</a>:
-                                                    A simple CNN model to extract canny edge features as it is necessary
-                                                    as part of the
-                                                    end-to-end learning procedure.
-                                                </li>
-                                                <li><a href="https://github.com/Nikronic/ObjectNet">ObjectNet</a>:
-                                                    Modified version of "Pyramid Scene Parsing Network" to only return
-                                                    25 major classified
-                                                    segments instead of 150 to be adapted to halftoning process.
-                                                </li>
-                                                <li><a href="https://github.com/Nikronic/Halftoning-Algorithms">Halftoning-Algorithms</a>:
-                                                    Implementation of some of the halftone algorithms provided in most
-                                                    recent digital color haltoning
-                                                    books to prepare data as the input of the whole project.
-                                                </li>
-                                                <li><a href="https://github.com/Nikronic/Places365-Preprocessing">Places365-Preprocessing</a>:
-                                                    A custom and extendable implementation of Dataset abstract class in
-                                                    PyTorch to handle
-                                                    lazy loading of a huge data functionality via utilizing CPU for
-                                                    preprocessing and GPU for training.
-                                                </li>
-                                            </ul>
+                                        
+                                            <div class="ref-box">
+                                                <span>Conference: <a href="https://dl.acm.org/doi/proceedings/10.1145/3485114">SCF '21</a> - ACM
+                                                    Symposium on Computational Fabrication, USA, October 2021</span>
+                                                <p class="icon">
+                                                    <span><a href="https://dl.acm.org/doi/pdf/10.1145/3485114.3485124"><i class="icon-file-pdf"></i> PDF</a></span>
+                                                    <span><a href="https://dl.acm.org/doi/fullHtml/10.1145/3485114.3485124"><i class="icon-html-five2"></i> HTML5</a></span>
+                                                    <span><a href="#"><i class="icon-youtube"></i> Presentation</a></span>
+                                                    <!-- TODO: do your own presentation and upload to youtube -->
+                                                    <span><a href="#"><i class="icon-github"></i> Code</a></span>
+                                                    <!-- TODO: upload code after cleansing -->
+                                                    <span><a href="#"><i class="icon-data"></i> Supplement</a></span>
+                                                    <!-- Add some other density fields and their videos -->
+                                                    <span><a class="popup-modal" href="#toftndr-bib">
+                                                        <i class="icon-note"></i> Cite</a>
+                                                        
+                                                    </span>
+                                                    
+                                                    <!-- TODO: enable copy and download (bib) features -->
+
+                                                </p>
+                                            </div>
+
+                                            <div id="toftndr-bib" class="mfp-hide white-popup-block">
+                                                <div class="popup-modal-head">
+                                                    <h1 class="popup-modal-header">Cite</h1>
+                                                    <a class="popup-modal-dismiss popup-modal-dismiss-effect" href="#"><i class="icon-times-outline"></i></a>
+                                                </div>
+                                                <pre><code id="toftndr-citation">@inproceedings{10.1145/3485114.3485124,
+                                                    author = {Doosti, Nikan and Panetta, Julian and Babaei, Vahid},
+                                                    title = {Topology Optimization via Frequency Tuning of Neural Design Representations},
+                                                    year = {2021},
+                                                    isbn = {9781450390903},
+                                                    publisher = {Association for Computing Machinery},
+                                                    address = {New York, NY, USA},
+                                                    url = {https://doi.org/10.1145/3485114.3485124},
+                                                    doi = {10.1145/3485114.3485124},
+                                                    abstract = { Structural topology optimization seeks to distribute material throughout a design
+                                                    domain in a way that maximizes a certain performance goal. In this work, we solve
+                                                    the topology optimization problem by parameterizing the designs via recently introduced
+                                                    coordinate-based neural networks. Specifically, we show that networks with Fourier
+                                                    feature mapping can achieve state-of-the-art performance. Our method enables the realization
+                                                    of a range of designs using a single mesh via tuning the frequency content of the
+                                                    solutions independently of the finite element discretization grid. This frequency
+                                                    control offers attractive properties, such as mesh-independent results and sub-pixel
+                                                    filtering that leads to appropriate designs for upsampling. We demonstrate our method
+                                                    on the compliance minimization problem, optimizing for the stiffest possible structure
+                                                    within a weight budget for a prescribed set of loads.},
+                                                    booktitle = {Symposium on Computational Fabrication},
+                                                    articleno = {1},
+                                                    numpages = {9},
+                                                    keywords = {Topology optimization, neural networks, generative design},
+                                                    location = {Virtual Event, USA},
+                                                    series = {SCF '21}
+                                                    }                                                                
+                                                    </code>
+                                                </pre>
+                                                
+                                                <div class="popup-modal-func">
+                                                    <p class="icon">
+                                                        <span><a class="popup-modal-dismiss" href="#" onclick="copy_citation()"><i class="icon-paper-stack"></i> Copy</a></span>
+                                                        <span><a class="" href="publications/topopt-ndr/topopt-ndr.bib" download><i class="icon-arrow-down3"></i> Download</a></span>
+                                                    </p>
+                                                </div>    
+                                                
+                                            </div>
+
                                         </div>
                                     </div>
                                 </article>
 
 
-                                <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                     <div class="timeline-entry-inner">
 
                                         <div class="timeline-icon color-1">
@@ -265,7 +308,7 @@
 
                                         </div>
                                     </div>
-                                </article>
+                                </article> -->
 
 
                                 <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
@@ -582,7 +625,6 @@
                                                         <a class="blog-img" href="images/proj/de(re)screening01.jpg">
                                                             <img alt="Halftoning and Rescreening example" class="img-responsive" src="images/proj/de(re)screening01.jpg">
                                                         </a>
-                                                        <!-- TODO: add github repo instead of azure -->
                                                          <!-- <span>Nov 2018 - Aug 2019</span></h2> -->
                                                      <p>This project pertains automated Descreening process. Descreening is the
                                                          task that we try to
@@ -675,8 +717,6 @@
             </section>
 
             
-
-            
             <section class="colorlib-work" data-section="work">
                 <div class="colorlib-narrow-content">
                     <div class="row">
@@ -692,7 +732,7 @@
                     </div> -->
                     <div class="row">
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="project" style="background-image: url(images/img-1.jpg); background-color: darkcyan;">
+                            <div class="project" style="background-color: darkcyan;">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="blog.html">blog 01</a></h3>
@@ -707,7 +747,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div class="project" style="background-image: url(images/img-2.jpg); background-color: rgb(201, 53, 8);">
+                            <div class="project" style="background-color: rgb(201, 53, 8);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="blog.html">blog 02</a></h3>
@@ -722,7 +762,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-                            <div class="project" style="background-image: url(images/img-3.jpg); background-color: rgb(130, 139, 0);">
+                            <div class="project" style="background-color: rgb(130, 139, 0);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="blog.html">blog 03</a></h3>
@@ -737,7 +777,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-                            <div class="project" style="background-image: url(images/img-4.jpg); background-color: rgb(139, 0, 116);">
+                            <div class="project" style="background-color: rgb(139, 0, 116);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="blog.html">blog 04</a></h3>
@@ -752,7 +792,8 @@
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="project" style="background-image: url(images/img-5.jpg); background-color: rgb(37, 0, 139);">
+                            <!-- <div class="project" style="background-image: url(images/img-5.jpg); background-color: rgb(37, 0, 139);"> -->
+                            <div class="project" style="background-color: rgb(37, 0, 139);">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="blog.html">blog 05</a></h3>
@@ -767,7 +808,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div class="project" style="background-image: url(images/img-6.jpg); background-color: darkcyan;">
+                            <div class="project" style="background-color: darkcyan;">
                                 <div class="desc">
                                     <div class="con">
                                         <h3><a href="blog.html">blog 06</a></h3>
@@ -924,6 +965,8 @@
 <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
 <!-- Counters -->
 <script src="js/jquery.countTo.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.min.js"></script>
 
 
 <!-- MAIN JS -->
