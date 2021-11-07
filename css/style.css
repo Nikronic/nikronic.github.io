@@ -40,10 +40,16 @@ a {
     transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:active, a:focus {
     color: #2c98f0;
     outline: none;
     text-decoration: none !important;
+}
+
+a:hover {
+    color: #2c98f0;
+    outline: none;
+    text-decoration: underline !important;
 }
 
 p {
@@ -616,7 +622,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .hire {
     padding: 2em;
-    background: #006257;
+    background: #0038323d;
 }
 
 .hire h2 {
@@ -689,7 +695,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .panel-heading a.collapsed {
-    background: #006257;
+    background: #0038323d;
     /*border: 1px solid #e6e6e6 !important;*/
     color: #ffffff;
 }
@@ -799,7 +805,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
     position: relative;
-    background: #006257;
+    background: #0038323d;
     padding: 1.5em;
     margin-left: 60px;
     -webkit-background-clip: padding-box;
@@ -871,7 +877,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     margin-bottom: 30px;
     padding: 1.5em;
     color: #F5F5F6;
-    background-color: #006257; /*fixme card colors*/
+    background-color: #0038323d;
     -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -1194,7 +1200,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     height: 100px;
     display: table;
     text-align: center;
-    background: #006257;
+    background: #0038323d;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1254,7 +1260,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     float: left;
     margin-bottom: 3em;
     padding: 5px;
-    background: #006257;
+    background: #0038323d;
     color: white;
 }
 
@@ -1646,11 +1652,11 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     animation:blinkingText 2s infinite;
 }
 @keyframes blinkingText{
-    0%{     color: #006257;    }
-    49%{    color: #006257; }
+    0%{     color: #0038323d;    }
+    49%{    color: #0038323d; }
     60%{    color: transparent; }
     99%{    color: transparent;  }
-    100%{   color: #006257;    }
+    100%{   color: #0038323d;    }
 }
 
 .pagination li {
@@ -2073,6 +2079,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     background: unset !important;
 }
 
+.panel-default {
+    background-color: #0038323d;
+}
+
 .panel-heading a {
     background: url("../images/dark-kashi.gif");
 }
@@ -2154,7 +2164,6 @@ uncomment this part if you haven't added this code anywhere else
     margin: -1rem -1rem -1rem auto;
     padding: 1rem 1rem;
     font-size: 26px;
-    
 }
 
 .popup-modal-head {
@@ -2170,4 +2179,19 @@ uncomment this part if you haven't added this code anywhere else
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     border-radius: 4px;
+}
+
+
+.ref-box {
+    color: #ffffff24;
+    border: solid;
+    padding: 1rem 2rem;
+}
+
+.ref-box h5{
+    margin: 0 0 1rem 0;
+}
+
+.ref-box p{
+    margin: 0 0 1rem 0;
 }
