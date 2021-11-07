@@ -2075,6 +2075,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     border: unset !important;
 }
 
+.panel-group {
+    margin-bottom: 5px;
+}
+
 .panel-default > .panel-heading {
     background: unset !important;
 }

@@ -280,6 +280,10 @@
         })
     };
 
+    
+    // 
+    // START of section for popup citation box
+    // 
     $('.image-popup-vertical-fit').magnificPopup({
 		type: 'image',
 		closeOnContentClick: true,
@@ -355,7 +359,9 @@
 		removalDelay: 300,
 		mainClass: 'my-mfp-slide-bottom'
 	});
-
+    // 
+    // END of section for popup citation box
+    // 
     
 
     // Document on load.
@@ -382,12 +388,13 @@
 
 }());
 
-
+// 'Copy' to clipboard function for citation
 function copy_citation() {
     var copyText = document.getElementById("toftndr-citation");
     navigator.clipboard.writeText(copyText.textContent);
     
 };
 
+// fix the wrong formatting of citation due to indentation in HTML source
 var p = document.getElementById("toftndr-citation");
     p.textContent = p.textContent.replace(/^\s+/mg, "");
