@@ -384,9 +384,10 @@
 
 
 function copy_citation() {
-    /* Get the text field */
     var copyText = document.getElementById("toftndr-citation");
     navigator.clipboard.writeText(copyText.textContent);
     
 };
-  
+
+var p = document.getElementById("toftndr-citation");
+    p.textContent = p.textContent.replace(/^\s+/mg, "");
