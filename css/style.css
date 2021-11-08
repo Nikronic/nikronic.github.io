@@ -177,6 +177,10 @@ figure figcaption {
     width: 100%;
 }
 
+#colorlib-main-menu a:hover {
+    text-decoration: none !important;
+}
+
 #colorlib-aside #colorlib-main-menu .collapse {
     display: block !important;
 }
@@ -556,6 +560,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     display: block;
 }
 
+.colorlib-contact {
+    padding-bottom: 9em;
+}
+
 @media screen and (max-width: 768px) {
     .colorlib-experience,
     .colorlib-skills,
@@ -579,7 +587,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-heading {
     font-size: 18px;
-    margin-bottom: 4em;
+    /* margin-bottom: 4em; */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
