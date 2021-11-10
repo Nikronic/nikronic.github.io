@@ -554,14 +554,14 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-services,
 .colorlib-contact {
     padding-top: 4em;
-    /* padding-bottom: 9em; */
+    padding-bottom: 3em;
     clear: both;
     width: 100%;
     display: block;
 }
 
 .colorlib-contact {
-    padding-bottom: 9em;
+    padding-bottom: 12em !important;
 }
 
 @media screen and (max-width: 768px) {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mohammad Doosti Lakhani - Blog</title>
+    <title>Nikan Doosti CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
@@ -39,6 +39,8 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- Theme style  -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -57,29 +59,33 @@
            aria-expanded="false" aria-controls="navbar"><i></i></a>
         <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
             <div class="text-center">
-                <div class="author-img" style="background-image: url(images/me.jpg);"></div>
-                <h1 id="colorlib-logo"><a href="index.html">Mohammad Doosti Lakhani</a></h1>
-                <span class="position"><a href="#">Computer Engineer</a><br> university of Guilan</span>
+                <div class="author-img" style="background-image: url(images/me-old-close-hq.jpg);"></div>
+                <h1 id="colorlib-logo">Nikan Doosti</h1>
+                <span class="position">
+                    <span class="logo-headline">
+                        <span>MS</span>
+                        Computer Engineering
+                    </span>
+                    
+                    <span>Iran University of Science and Technology</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" class="navbar">
-                <div id="navbar" class="collapse">
+                <div class="collapse">
                     <ul>
-                        <li class="active"><a href="#" data-nav-section="home">Home</a></li>
-                        <li><a href="#" data-nav-section="about" class="navbar-item">About</a></li>
-                        <li><a href="#" data-nav-section="services" class="navbar-item">Projects</a></li>
-                        <li><a href="#" data-nav-section="skills" class="navbar-item">Skills</a></li>
-                        <li><a href="#" data-nav-section="education" class="navbar-item">Education</a></li>
-                        <li><a href="#" data-nav-section="experience" class="navbar-item">Experience</a></li>
-                        <!--                        <li><a href="#" data-nav-section="work" class="navbar-item">Work</a></li>-->
-                        <li><a href="#" data-nav-section="blog" class="navbar-item">Social</a></li>
-                        <li><a href="#" data-nav-section="contact" class="navbar-item">Contact</a></li>
+                        <li><a href="./index.html#about" data-nav-section="about" class="navbar-item">About</a></li>
+                        <li><a href="./index.html#experience" data-nav-section="experience" class="navbar-item">Publications</a></li>
+                        <li><a href="./index.html#education" data-nav-section="education" class="navbar-item">Education</a></li>
+                        <li><a href="./index.html#skills" data-nav-section="skills" class="navbar-item">Open source</a></li>
+                        <li><a href="#" data-nav-section="work" class="navbar-item">Blog</a></li>
+                        <li><a href="./index.html#contact" data-nav-section="contact" class="navbar-item">Contact</a></li>
                     </ul>
                 </div>
             </nav>
 
             <div class="colorlib-footer">
                 <p>
-                    <small>&copy; Copyright <script>document.write(new Date().getFullYear());</script>
+                    <small>&copy; Copyright
+                        <script>document.write(new Date().getFullYear());</script>
                         All rights reserved<br>This template is made by
                         <a href="https://colorlib.com" target="_blank">Colorlib</a>
                     </small>
@@ -87,17 +93,15 @@
                 <ul>
                     <li><a href="https://github.com/Nikronic"><i class="icon-github"></i></a></li>
                     <li><a href="https://twitter.com/Nikronic"><i class="icon-twitter2"></i></a></li>
-                    <li><a href="https://stackoverflow.com/users/7606121/m-doosti-lakhani"><i
-                            class="icon-stackoverflow"></i></a></li>
-                    <li><a href="https://steamcommunity.com/id/Nikronic"><i class="icon-steam"></i></a></li>
-                    <!--<li><a href="#"><i class="icon-linkedin2"></i></a></li> &lt;!&ndash;fixme build linkedin account&ndash;&gt;-->
+                    <li><a href="https://discuss.pytorch.org/u/Nikronic/"><span class="iconify" data-icon="logos-pytorch" data-inline="false"></span></a></li>
+                    <li><a itemprop="sameAs" content="https://orcid.org/0000-0001-9152-8094" href="https://orcid.org/0000-0001-9152-8094" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;vertical-align: unset;/* margin-right:.5em; */width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></li>
+                    
                 </ul>
             </div>
         </aside>
 
-        <div id="colorlib-main">
-
-            <!-- ######################       ######################         #######################   ##################-->
+        <div id="colorlib-main">            
+            
             <section class="colorlib-blog" data-section="blog">
                 <div class="colorlib-narrow-content">
                     <div class="row">
@@ -108,60 +112,30 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+
+                        <!-- blog instance -->
+                        <div class="col-md-12 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                             <div class="blog-entry">
-                                <a class="blog-img" href="blog.html"><img alt="HTML5 Bootstrap Template by colorlib.com"
-                                                                          class="img-responsive"
-                                                                          src="images/blog-1.jpg"></a>
+                                <a class="blog-img" href="blog.html">
+                                    <img alt="HTML5 Bootstrap Template by colorlib.com" class="img-responsive" src="images/blog-1.jpg"></a>
                                 <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
-                                            class="icon-bubble3"></i> 4</small></span>
-                                    <h3><a href="blog.html">Renovating National Gallery</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                                        large language ocean.</p>
+                                    <span><small>April 14, 2018 </small> | <small> Web Design </small></span>
+                                    <h3 class="blog-title"><a href="blog.html">Renovating National Gallery</a></h3>
+                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                            <div class="blog-entry">
-                                <a class="blog-img" href="blog.html"><img alt="HTML5 Bootstrap Template by colorlib.com"
-                                                                          class="img-responsive"
-                                                                          src="images/blog-2.jpg"></a>
-                                <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i
-                                            class="icon-bubble3"></i> 4</small></span>
-                                    <h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                                        large language ocean.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="blog-entry">
-                                <a class="blog-img" href="blog.html"><img alt="HTML5 Bootstrap Template by colorlib.com"
-                                                                          class="img-responsive"
-                                                                          src="images/blog-3.jpg"></a>
-                                <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i
-                                            class="icon-bubble3"></i> 4</small></span>
-                                    <h3><a href="blog.html">Make website from scratch</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-                                        large language ocean.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="row">
                         <div class="col-md-12 animate-box">
-                            <p><a class="btn btn-primary btn-lg btn-load-more" href="#">See all <i
-                                    class="icon-th-list"></i></a></p>
-                            <!--                            Fixme check if there is any blog.html in original template-->
-
+                            <p><a class="btn btn-primary btn-lg btn-load-more" href="#">See all <i class="icon-th-list"></i></a></p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- ######################       ######################         #######################   ##################-->
+            
 
 
         </div><!-- end:colorlib-main -->
@@ -180,8 +154,12 @@
 <script src="js/jquery.flexslider-min.js"></script>
 <!-- Owl carousel -->
 <script src="js/owl.carousel.min.js"></script>
+<!-- Iconify -->
+<script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
 <!-- Counters -->
 <script src="js/jquery.countTo.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.min.js"></script>
 
 
 <!-- MAIN JS -->
