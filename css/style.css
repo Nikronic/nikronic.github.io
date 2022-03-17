@@ -2207,3 +2207,8 @@ uncomment this part if you haven't added this code anywhere else
 .ref-box p{
     margin: 0 0 1rem 0;
 }
+
+.ref-box .disabled-link a{
+    background-color: #424250 !important;
+    text-decoration: line-through;
+}
