@@ -8,14 +8,11 @@ heading: Who Am I KEKW
 Some page content here...
 
 <ul>
-  {% assign mypages = site.pages %}
-    {% for page in mypages %}
-    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-    {% endfor %}
-</ul>
-
-<ul>
     {% for link in site.data.navigation %}
-    <li><a href="{{ link.url | absolute_url }}">{{ link.title }}</a></li>
+    <li>
+        <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+        <img src="{{ link.image | absolute_url }}">
+    </li>
     {% endfor %}
+    
 </ul>
