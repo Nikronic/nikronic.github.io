@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nikan Doosti CV</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
@@ -102,41 +102,28 @@
 
         <div id="colorlib-main">            
             
-            <section class="colorlib-blog" data-section="blog">
+            <section class="colorlib-about" data-section="about" id="about">
                 <div class="colorlib-narrow-content">
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                             data-animate-effect="fadeInLeft">
-                            <span class="heading-meta">Read</span>
-                            <h2 class="colorlib-heading">Recent Blog</h2>
-                        </div>
-                    </div>
-                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                <div class="col-md-12">
+                                    <div class="about-desc">
+                                        <span class="heading-meta">{{ page.heading-meta }}</span>
+                                        <h2 class="colorlib-heading">{{ page.heading }}</h2>
+                                        <!-- TODO: add jekyll variables for heading-meta and heading -->
+                                        <div class="hire">
+                                            
+                                            {{ content }}
 
-                        <!-- blog instance -->
-                        <div class="col-md-12 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="blog-entry">
-                                <a class="blog-img" href="blog.html">
-                                    <img alt="HTML5 Bootstrap Template by colorlib.com" class="img-responsive" src="images/blog-1.jpg"></a>
-                                <div class="desc">
-                                    <span><small>April 14, 2018 </small> | <small> Web Design </small></span>
-                                    <h3 class="blog-title"><a href="blog.html">Renovating National Gallery</a></h3>
-                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-                                    </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 animate-box">
-                            <p><a class="btn btn-primary btn-lg btn-load-more" href="#">See all <i class="icon-th-list"></i></a></p>
                         </div>
                     </div>
                 </div>
             </section>
-            
-
 
         </div><!-- end:colorlib-main -->
     </div><!-- end:container-wrap -->

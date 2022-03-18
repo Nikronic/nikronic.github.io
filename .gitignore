@@ -8,3 +8,9 @@
 
 ## MAC OS
 .DS_Store
+
+## jekyll items
+_site
+.jekyll-cache
+
+test.md
