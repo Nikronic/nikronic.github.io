@@ -7,12 +7,14 @@ heading: Who Am I KEKW
 
 Some page content here...
 
-<ul>
-    {% for link in site.data.navigation %}
-    <li>
-        <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
-        <img src="{{ link.image | absolute_url }}">
-    </li>
-    {% endfor %}
-    
-</ul>
+{% assign counter = 0 %}
+{% for i in (0..10) %}
+    {% if counter >= 4 %}
+        {% break %}
+    {% endif %}    
+    {% if i > 0 %}
+        {% assign counter = counter | plus: 1 %}
+    {% endif %}
+{% endfor %}
+{{counter}}<br>
+{{i}}

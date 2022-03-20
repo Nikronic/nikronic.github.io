@@ -800,24 +800,31 @@ layout: default
             </div>
         </div> -->
         <div class="row">
-            {% for link in site.data.index limit:4 %}
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                <div class="project" style="background-image: url('{{ link.image | absolute_url }}');">
-                    <div class="desc">
-                        <div class="con">
-                            <h3><a href="{{ link.url | absolute_url }}">
-                                {{ link.title }}
-                            </a></h3>
-                            <span>{{ link.tags }}</span>
-                            <p class="icon">
-                                <!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
-                                <!-- TODO: maybe add share button? or something else -->
-                                <span><i class="icon-calendar3"></i> {{ link.date }}</span>
-                            </p>
+            {% assign counter = 0 %} <!-- limit `featured` blogs to 4 -->
+            {% for link in site.data.index %}
+                {% if counter >= 4 %}
+                    {% break %}
+                {% endif %}
+                {% if link.tags contains 'featured' %}
+                    {% assign counter = counter | plus: 1 %}
+                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="project" style="background-image: url('{{ link.image | absolute_url }}');">
+                            <div class="desc">
+                                <div class="con">
+                                    <h3><a href="{{ link.url | absolute_url }}">
+                                        {{ link.title }}
+                                    </a></h3>
+                                    <span>{{ link.tags }}</span>
+                                    <p class="icon">
+                                        <!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
+                                        <!-- TODO: maybe add share button? or something else -->
+                                        <span><i class="icon-calendar3"></i> {{ link.date }}</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                {% endif %}
             {% endfor %}
         </div>
         <div class="row">
