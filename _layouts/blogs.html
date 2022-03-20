@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ site.title }}</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
@@ -102,8 +102,19 @@
 
         <div id="colorlib-main">
 
-            {{ content }}
+            <section class="colorlib-work" data-section="work">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">{{ page.heading-meta }}</span>
+                            <h2 class="colorlib-heading animate-box">{{ page.heading }}</h2>
+                        </div>
+                    </div>
 
+                    {{ content }}
+
+                </div>
+            </section>
         </div><!-- end:colorlib-main -->
     </div><!-- end:container-wrap -->
 </div><!-- end:colorlib-page -->

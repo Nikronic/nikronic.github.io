@@ -1404,11 +1404,16 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #072942;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+}
+
+.desc-color{
+    background: #072942 !important;
+    border: none !important;
 }
 
 .project .desc .con {
@@ -1431,6 +1436,16 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .project .desc .con .icon span a {
+    color: #333333;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.project .desc .con .icon span i {
     color: #333333;
     padding: 5px;
     background: rgba(255, 255, 255, 0.5);
