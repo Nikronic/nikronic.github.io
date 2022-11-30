@@ -1675,11 +1675,11 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     animation:blinkingText 2s infinite;
 }
 @keyframes blinkingText{
-    0%{     color: #0038323d;    }
-    49%{    color: #0038323d; }
+    0%{     color: #ffffffff;    }
+    49%{    color: #ffffffff; }
     60%{    color: transparent; }
     99%{    color: transparent;  }
-    100%{   color: #0038323d;    }
+    100%{   color: #ffffffff;    }
 }
 
 .pagination li {
