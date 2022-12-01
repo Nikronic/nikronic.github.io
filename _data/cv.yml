@@ -105,16 +105,24 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Deep Learning
+    - title: Physics-based Simulation
+    - title: Computational Fabrication
+    - title: Computer Graphics
+    - title: Computational Neuroscience
+    - title: Digital Image Processing
+
+    # - title: Topic 1.
+    #   items: 
+    #     - Description 1.
+    #     - Description 2.
+    # - title: Topic 2.
+    #   items:
+    #     - Description 1.
+    #     - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Video Games
+
