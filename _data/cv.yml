@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Nikan Doosti
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26th November 1996
     - name: Languages
-      value: English, German
+      value: Persian, English
 
 - title: Education
   type: time_table
