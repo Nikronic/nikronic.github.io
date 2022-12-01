@@ -88,13 +88,19 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Accepted in M.Sc program without Entrance Exam as an Exceptional Talent
+    - year: 2019
       items: 
-        - Max Planck Medal
+        - Tuition Waiver, M.Sc, Iran University of Science and Technology
+    - year: 2019
+      items:
+        - Ranked 3rd among B.Sc graduates in Computer Engineering at University of Guilan
+    - year: 2015
+      items:
+        - Tuition Waiver, B.Sc, University of Guilan
+
 
 - title: Academic Interests
   type: nested_list
