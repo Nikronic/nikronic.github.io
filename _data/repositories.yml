@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Nikronic
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Nikronic/Optimized-MDVRP
+  - Nikronic/CoarseNet
+  - rasht-school-of-ai/Meetup-Materials
+  - Nikronic/Machine-Learning-Models
+  - Nikronic/blog
+  - Computational-Intelligence-Fall18/Genetics
