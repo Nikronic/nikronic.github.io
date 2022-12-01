@@ -64,13 +64,27 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Voluntary Activities
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Mentor and Lecturer in <a href="http://schoolofai.ir/">Rasht School of AI</a>
+      year: 2018-present
+      description: An Open and Free Organization For Introducing AI and Mentorship
+        - Held lectures around applications of AI, particularly digital image processing (<a href="https://github.com/rasht-school-of-ai/Meetup-Materials">slides</a>)
+        - Mentored few students who were interested in artificial intelligence and its applications
+    
+    - title: Organizer and Mentor in <a href="http://iust-projects.ir/">IUST Projects</a>
+      year: 2019-2021
+      description: An Open and Free Organization For Sharing Ideas, Showcasing Projects and Mentoring Students
+        - Attempted to challenge the siloed culture of the university through having open scientific/general discussions
+        - Mentored junior students in preparation for going through M.Sc thesis process; from ideation to publishing
 
+    - title: Member in <a href="http://iust-projects.ir/">Official PyTorch Forum</a>
+      year: 2018-present
+      description: Official forum with +50K members and authors of the PyTorch
+        - A top member (15th) with 183 solutions and 566 posts (<a href="https://discuss.pytorch.org/u/Nikronic/">summary</a>)
+        - Commended by <a href="https://twitter.com/ThomasViehmann/status/1309794697049714689">Thomas Viehmann</a> for insightful posts
+      
 - title: Honors and Awards
   type: time_table
   contents:
