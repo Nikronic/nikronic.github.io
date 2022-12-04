@@ -8,6 +8,7 @@
     - name: Languages
       value: Persian, English
 
+
 - title: Education
   type: time_table
   contents:
@@ -31,12 +32,14 @@
         #     - Sub-description 1.
         #     - Sub-description 2.
 
+
 - title: Publications
   type: time_table
   contents:
     - year: 2021
       items: 
         - <strong>Doosti, Nikan</strong>, Julian Panetta, and Vahid Babaei. "Topology Optimization via Frequency Tuning of Neural Design Representations." In Symposium on Computational Fabrication, pp. 1-9. 2021. (<a href="https://dl.acm.org/doi/abs/10.1145/3485114.3485124">ACM</a>)
+
 
 - title: Talks
   type: time_table
@@ -103,9 +106,6 @@
         - Designed programming assignments
         - Held weekly 2-hour QA sessions and graded all the assignments
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
 - title: Voluntary Activities
   type: time_table
