@@ -63,17 +63,20 @@
         - This project has been published and presented in ACM Symposium on Computational Fabrication 2021
         - This project was defined as my master's thesis
 
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Full-time Machine Learning Engineer
+      institution: <a href="https://nahalgasht.com">Nahal Gasht</a>, Karaj, Iran
+      year: April 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Counseled employees, software engineers, and managers on revamping the data architecture, resulting in mitigating bad data by at least %35
+        - Designed a full pipeline of data extraction, transformation, and loading targeting data science applications
+        - Integrated gamification objectives in designing and training machine learning models to produce engaging and informative user interactions
+        - Advocated for using best practices such as proper documentation, git, and open source, which led to full utilization of these topics in the daily workflow of the IT department
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
       description:
 
     - title: Associate Professor of Theoretical Physics
