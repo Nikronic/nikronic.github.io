@@ -59,10 +59,8 @@
         - Novel self-supervised neural method for obtaining the optimum design showcased in Topology Optimization
         - Supervision of <a href="http://aidam.mpi-inf.mpg.de/?view=people_vahid">Dr. Vahid Babaei</a>
         - Collaboration of <a href="https://www.julianpanetta.com">Prof. Julian Panetta</a> at University of California, Davis, USA
-        - title: Core components:
-          contents:
-            - Physics-based simulation of stiffness of the obtained design
-            - Generative continuous design via a single fixed mesh through controlling the frequencies
+        - Physics-based simulation of stiffness of the obtained design
+        - Generative continuous design via a single fixed mesh through controlling the frequencies
         - This project has been published and presented in ACM Symposium on Computational Fabrication 2021
         - This project was defined as my master's thesis
 
