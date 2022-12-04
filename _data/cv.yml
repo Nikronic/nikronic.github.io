@@ -2,96 +2,169 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Nikan Doosti
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26th November 1996
     - name: Languages
-      value: English, German
+      value: Persian, English
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Computer Engineering - Artificial Intelligence
+      institution: Iran University of Science and Technology, Tehran, Iran
+      year: Aug 2019 - Dec 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Thesis Title: High Resolution Neural Topology Optimization via Differentiable Physics Engine
+        - Defended with Full mark on 22 Oct 2022
+        - GPA: 17.17/20.00
+        
+    - title: Bachelor of Computer Engineering
+      institution: University of Guilan, Rasht, Iran
+      year: Aug 2015 - Aug 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Final Project: Rescreening of Halftone Images via Data-Driven Deep Learning Methods
+        - Class Rank: 3
+        - GPA: 18.64/20.00
+        # - title: asd
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
 
-- title: Experience
+
+- title: Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - year: 2021
+      items: 
+        - <strong>Doosti, Nikan</strong>, Julian Panetta, and Vahid Babaei. "Topology Optimization via Frequency Tuning of Neural Design Representations." In Symposium on Computational Fabrication, pp. 1-9. 2021. (<a href="https://dl.acm.org/doi/abs/10.1145/3485114.3485124">ACM</a>)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Talks
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2022
+      items: 
+        - Doosti, Nikan. 2022. "Neural Design Representations." Toronto Geometry Colloquium. March 4, 2022. toronto-geometry-colloquium.github.io. (Length: 10 mins., <a href="https://youtu.be/FdPwG2kNv0M">Video</a>)
 
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: <a href="http://aidam.mpi-inf.mpg.de/?view=home">Artificial Intelligence aided Design and Manufacturing Group</a> at Max Planck Institute for Informatics, Saarbrücken, Germany
+      year: Jul 2020 - Mar 2021
+      description:
+        - Novel self-supervised neural method for obtaining the optimum design showcased in Topology Optimization
+        - Supervision of <a href="http://aidam.mpi-inf.mpg.de/?view=people_vahid">Dr. Vahid Babaei</a>
+        - Collaboration of <a href="https://www.julianpanetta.com">Prof. Julian Panetta</a> at University of California, Davis, USA
+        - Physics-based simulation of stiffness of the obtained design
+        - Generative continuous design via a single fixed mesh through controlling the frequencies
+        - This project has been published and presented in ACM Symposium on Computational Fabrication 2021
+        - This project was defined as my master's thesis
+
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Full-time Machine Learning Engineer
+      institution: <a href="https://nahalgasht.com">Nahal Gasht</a>, Karaj, Iran
+      year: April 2022 - Present
+      description:
+        - Counseled employees, software engineers, and managers on revamping the data architecture, resulting in mitigating bad data by at least %35
+        - Designed a full pipeline of data extraction, transformation, and loading targeting data science applications
+        - Integrated gamification objectives in designing and training machine learning models to produce engaging and informative user interactions
+        - Advocated for using best practices such as proper documentation, git, and open source, which led to full utilization of these topics in the daily workflow of the IT department
+
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Head Teaching Assistant
+      institution: Advanced Programming, University of Guilan
+      year: Aug 2018 - Feb 2019
+      description:
+        - Supervision of <a href="https://ir.linkedin.com/in/seyed-abolghasem-mirroshandel-1a3a5950">Dr. Ghasem Mirroshandel</a>
+        - Taught undergraduate students Java programming language in weekly 4-hour sessions
+        - Designed and graded their assignments and the final project
+
+    - title: Head Teaching Assistant
+      institution: Algorithms Design, University of Guilan
+      year: Aug 2018 - Feb 2019
+      description:
+        - Supervision of <a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
+        - Held weekly 2-hour QA sessions and graded the assignments
+    
+    - title: Head Teaching Assistant
+      institution: Computational Intelligence, University of Guilan
+      year: Feb 2018 - July 2018
+      description:
+        - Supervision of <a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
+        - Designed programming assignments
+        - Held weekly 2-hour QA sessions and graded all the assignments
+
+
+- title: Voluntary Activities
+  type: time_table
+  contents:
+    - title: Mentor and Lecturer in <a href="http://schoolofai.ir/">Rasht School of AI</a>
+      year: 2018-present
+      description: An Open and Free Organization For Introducing AI and Mentorship
+        - Held lectures around applications of AI, particularly digital image processing (<a href="https://github.com/rasht-school-of-ai/Meetup-Materials">slides</a>)
+        - Mentored few students who were interested in artificial intelligence and its applications
+    
+    - title: Organizer and Mentor in <a href="http://iust-projects.ir/">IUST Projects</a>
+      year: 2019-2021
+      description: An Open and Free Organization For Sharing Ideas, Showcasing Projects and Mentoring Students
+        - Attempted to challenge the siloed culture of the university through having open scientific/general discussions
+        - Mentored junior students in preparation for going through M.Sc thesis process; from ideation to publishing
+
+    - title: Member in <a href="http://iust-projects.ir/">Official PyTorch Forum</a>
+      year: 2018-present
+      description: Official forum with +50K members and authors of the PyTorch
+        - A top member (15th) with 183 solutions and 566 posts (<a href="https://discuss.pytorch.org/u/Nikronic/">summary</a>)
+        - Commended by <a href="https://twitter.com/ThomasViehmann/status/1309794697049714689">Thomas Viehmann</a> for insightful posts
+      
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Accepted in M.Sc program without Entrance Exam as an Exceptional Talent
+    - year: 2019
       items: 
-        - Max Planck Medal
+        - Tuition Waiver, M.Sc, Iran University of Science and Technology
+    - year: 2019
+      items:
+        - Ranked 3rd among B.Sc graduates in Computer Engineering at University of Guilan
+    - year: 2015
+      items:
+        - Tuition Waiver, B.Sc, University of Guilan
 
-- title: Academic Interests
+
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Deep Learning
+    - title: Physics-based Simulation
+    - title: Computational Fabrication
+    - title: Computer Graphics
+    - title: Computational Neuroscience
+    - title: Digital Image Processing
+
+    # - title: Topic 1.
+    #   items: 
+    #     - Description 1.
+    #     - Description 2.
+    # - title: Topic 2.
+    #   items:
+    #     - Description 1.
+    #     - Description 2.
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Video Games
+
