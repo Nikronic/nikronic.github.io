@@ -149,21 +149,12 @@
 - title: Research Interests
   type: list
   contents:
-    - title: Deep Learning
-    - title: Physics-based Simulation
-    - title: Computational Fabrication
-    - title: Computer Graphics
-    - title: Computational Neuroscience
-    - title: Digital Image Processing
-
-    # - title: Topic 1.
-    #   items: 
-    #     - Description 1.
-    #     - Description 2.
-    # - title: Topic 2.
-    #   items:
-    #     - Description 1.
-    #     - Description 2.
+    - Deep Learning
+    - Physics-based Simulation
+    - Computational Fabrication
+    - Computer Graphics
+    - Computational Neuroscience
+    - Digital Image Processing
 
 
 - title: Other Interests
