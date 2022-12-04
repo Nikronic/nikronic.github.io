@@ -101,7 +101,7 @@
       year: Feb 2018 - July 2018
       description:
         - Supervision of <a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
-        - Designed programming assignments
+        - Designed programming assignments (<a href="https://github.com/Computational-Intelligence-Fall18">Material</a>)
         - Held weekly 2-hour QA sessions and graded all the assignments
 
 
@@ -135,35 +135,22 @@
     - year: 2019
       items: 
         - Accepted in M.Sc program without Entrance Exam as an Exceptional Talent
-    - year: 2019
-      items: 
         - Tuition Waiver, M.Sc, Iran University of Science and Technology
-    - year: 2019
-      items:
-        - Ranked 3rd among B.Sc graduates in Computer Engineering at University of Guilan
     - year: 2015
       items:
         - Tuition Waiver, B.Sc, University of Guilan
+        - Ranked 3rd among B.Sc graduates in Computer Engineering at University of Guilan
 
 
 - title: Research Interests
   type: list
   contents:
-    - title: Deep Learning
-    - title: Physics-based Simulation
-    - title: Computational Fabrication
-    - title: Computer Graphics
-    - title: Computational Neuroscience
-    - title: Digital Image Processing
-
-    # - title: Topic 1.
-    #   items: 
-    #     - Description 1.
-    #     - Description 2.
-    # - title: Topic 2.
-    #   items:
-    #     - Description 1.
-    #     - Description 2.
+    - Deep Learning
+    - Physics-based Simulation
+    - Computational Fabrication
+    - Computer Graphics
+    - Computational Neuroscience
+    - Digital Image Processing
 
 
 - title: Other Interests
