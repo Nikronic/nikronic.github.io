@@ -45,16 +45,24 @@
       items: 
         - Doosti, Nikan. 2022. "Neural Design Representations." Toronto Geometry Colloquium. March 4, 2022. toronto-geometry-colloquium.github.io. (Length: 10 mins., <a href="https://youtu.be/FdPwG2kNv0M">Video</a>)
 
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: <a href="http://aidam.mpi-inf.mpg.de/?view=home">Artificial Intelligence aided Design and Manufacturing Group</a> at Max Planck Institute for Informatics, Saarbrücken, Germany
+      year: Jul 2020 - Mar 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Novel self-supervised neural method for obtaining the optimum design showcased in Topology Optimization
+        - Supervision of <a href="http://aidam.mpi-inf.mpg.de/?view=people_vahid">Dr. Vahid Babaei</a>
+        - Collaboration of <a href="https://www.julianpanetta.com">Prof. Julian Panetta</a> at University of California, Davis, USA
+        - title: Core components:
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Physics-based simulation of stiffness of the obtained design
+            - Generative continuous design via a single fixed mesh through controlling the frequencies
+        - This project has been published and presented in ACM Symposium on Computational Fabrication 2021
+        - This project was defined as my master's thesis
+
       description:
         - Description 1.
         - Description 2.
