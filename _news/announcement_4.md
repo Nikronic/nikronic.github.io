@@ -3,6 +3,7 @@ layout: post
 title: I gave a talk at Toronto Geometry Colloquium about my SCF21 publication.
 date: 2022-03-04 10:00:00-0400
 inline: false
+comments: true
 ---
 
 I gave a oral talk as the 10-min opener about <a href="{{site.baseurl}}/news/announcement_2">my recent publication</a> at <a href="toronto-geometry-colloquium.github.io">Toronto Geometry Colloquium</a> which is part of <a href="https://www.dgp.toronto.edu">Dynamic Graphics Project</a> lab at University of Toronto.

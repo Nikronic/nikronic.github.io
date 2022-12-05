@@ -5,6 +5,7 @@ description: Deep context-aware descreening and rescreening of halftone images i
 img: assets/img/de(re)screening01.jpg
 importance: 2
 category: work
+comments: true
 ---
 
 <div class="row">
