@@ -1,80 +1,43 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: IUST Projects
+description: Open organization for student by students for show casing their work and mentoring each other on graduate studies
+img: assets/img/iust-main.jpg
 importance: 3
-category: fun
+category: community
+comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/iust-main.jpg" title="Iran University of Science and Technology" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Iran University of Science and Technology
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+IUST Projects is an open GitHub organization with a focus on showcasing and maintaining projects created at Iran University of Science and Technology. This website and its organization is maintained by its true owners, the students and the contributors outside of the university, so no, this is not an official university website and it is open to anybody who wants to join!
 
+At IUST, there is no open discussion of ideas, mostly transferred and enforced by instructors and policies of the university which made the environment so hostile that barely you would find a group of people sharing ideas even related to curriculum. I learned so much from open-source and discussions with almost all students during bachelor's study and we found this situation absolutely unacceptable, hence created this organization open to everyone! Unfortunately, we failed!
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+***
+Our contribution can be summarized into:
+<ul>
+    <li>Hosting assignments, course notes, curriculum, etc of software engineering and artificial intelligence majors</li>
+    <li>Theoretical and implementation of solutions to assignments of different courses such as:
+        <ul>
+            <li>Digital Image Processing <a href="https://github.com/iust-projects/Digital-Image-Processing-IUST">(Github)</a></li>
+            <li>Distributed Systems <a href="https://github.com/iust-projects/mpich-playground">(Github)</a></li>
+            <li>Pattern Recognition <a href="https://github.com/iust-projects/Pattern-Recognition-IUST">(Github)</a></li>
+            <li>Complex Networks <a href="https://github.com/iust-projects/complex-networks-homework-projects">(Github)</a></li>
+            <li>Artificial Neural Networks <a href="https://github.com/iust-projects/Artificial-Neural-Networks">(Github)</a></li>
+        </ul>
+    </li>
+    <li>Mentoring students in their studies, such as choosing supervisors, crafting research proposal and thesis content, and so on.</li>
+</ul>
 
+You can find more info on <a href="https://github.com/iust-projects">Github</a> and the <a href="http://iust-projects.ir">website</a>.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+#### Acknowledgement
+The IUST Projects website and its GitHub organization was initially created by my awesome friend <a href="https://www.avestura.dev/">Aryan Ebrahimpour</a> and me.
