@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Collection of projects done as part of the study/work and side-projects
+description: Collection of projects done as part of the study/work, voluntary community, and side-projects
 nav: true
 nav_order: 2
-display_categories: [work, side-project]
+display_categories: [work, community, side-project]
 horizontal: false
 ---
 
