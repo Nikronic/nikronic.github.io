@@ -17,9 +17,9 @@ comments: true
     Iran University of Science and Technology
 </div>
 
-IUST Projects is an open GitHub organization with a focus on showcasing and maintaining projects created at Iran University of Science and Technology. This website and its organization is maintained by its true owners, the students and the contributors outside of the university, so no, this is not an official university website and it is open to anybody who wants to join!
+IUST Projects is an <strong>open GitHub organization</strong> with a focus on showcasing and maintaining projects created at Iran University of Science and Technology. This website and its organization is maintained by its true owners, the students and the contributors outside of the university, so no, this is not an official university website and it is open to anybody who wants to join!
 
-At IUST, there is no open discussion of ideas, mostly transferred and enforced by instructors and policies of the university which made the environment so hostile that barely you would find a group of people sharing ideas even related to curriculum. I learned so much from open-source and discussions with almost all students during bachelor's study and we found this situation absolutely unacceptable, hence created this organization open to everyone! Unfortunately, we failed!
+At IUST, there is no open discussion of ideas, mostly transferred and enforced by instructors and policies of the university which made the environment unpleasant that barely you would find a group of people sharing ideas even related to curriculum. I learned so much from open-source and discussions with almost all students during bachelor's study and <strong>we decided to create a friendly, competitive and constructive atmosphere</strong>, hence created this organization open to everyone! Unfortunately, we failed!
 
 ***
 Our contribution can be summarized into:
