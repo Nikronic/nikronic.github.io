@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 description: Collection of projects done as part of the study/work, voluntary community, and side-projects
 nav: true
