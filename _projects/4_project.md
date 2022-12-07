@@ -6,6 +6,7 @@ img: assets/img/iust-main.jpg
 importance: 3
 category: community
 comments: true
+github: https://github.com/iust-projects
 ---
 
 <div class="row">
