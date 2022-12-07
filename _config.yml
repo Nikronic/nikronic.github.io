@@ -105,7 +105,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -129,7 +129,7 @@ disqus_shortname: nikronic # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
-# If you have blog posts published on medium.com or other exteranl sources,
+# If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
   # - name: medium.com
@@ -227,7 +227,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -283,7 +283,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -315,7 +315,7 @@ enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arangement
+enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            true  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
