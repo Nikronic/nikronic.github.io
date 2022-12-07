@@ -6,6 +6,7 @@ img: assets/img/soai.jpg
 importance: 1
 category: community
 comments: true
+github: https://github.com/rasht-school-of-ai
 ---
 
 <div class="row">
