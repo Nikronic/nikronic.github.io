@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Nikan Doosti (under construction!) # the website title (if blank, full name will be used instead)
+title: Nikan Doosti # the website title (if blank, full name will be used instead)
 first_name: Nikan
 middle_name: 
 last_name: Doosti
 email: nikan.doosti@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Nikan Doosti, a researcher (hopefully!) interested in applications of Artificial Intelligence.
+  Personal website of Nikan Doosti, an Artificial Intelligence researcher (hopefully!)
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -96,7 +96,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can contact me <strong>anytime</strong> about anything, but I don't promise the <em>best</em> (most accurate) or the <em>expected</em> (what you might like to hear) response.
+  You can contact me <a href="https://cal.com/nikronic">anytime</a> about anything, but I don't promise the <em>best</em> (most accurate) or the <em>expected</em> (what you might like to hear) response.
   If I have not responded within <strong>48 hours</strong>, please send a reminder (prioritize based on the given order).<br>
   <strong>Order of availability</strong>: Email >>> Telegram > Twitter (I barely check messages)
   

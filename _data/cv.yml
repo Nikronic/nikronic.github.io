@@ -4,9 +4,9 @@
     - name: Full Name
       value: Nikan Doosti
     - name: Date of Birth
-      value: 26th November 1996
+      value: November 1996
     - name: Languages
-      value: Persian, English
+      value: Persian (Native), English (proficient)
 
 
 - title: Education
@@ -24,7 +24,7 @@
       institution: University of Guilan, Rasht, Iran
       year: Aug 2015 - Aug 2019
       description:
-        - <span>Final Project:</span> Rescreening of Halftone Images via Data-Driven Deep Learning Methods
+        - <span>Final Project:</span> Descreening and Rescreening of Halftone Images via Data-Driven Deep Learning Methods
         - <span>Class Rank:</span> 3rd
         - <span>GPA:</span> 18.64/20.00
         # - title: asd
@@ -146,9 +146,9 @@
   type: list
   contents:
     - Deep Learning
+    - Computer Graphics
     - Physics-based Simulation
     - Computational Fabrication
-    - Computer Graphics
     - Computational Neuroscience
     - Digital Image Processing
 
@@ -156,4 +156,7 @@
 - title: Other Interests
   type: list
   contents:
-    - <span>Hobbies:</span> Video Games
+    - <span>Video Games:</span> Experiencing untouchable. <span>Top-3:</span> DoTA2, GTA, Battlefield
+    - <span>History:</span> History repeats itself (although it's been written by winners!).
+    - <span>Nature:</span> Rhymes with my harmony, chaotic yet full of patterns
+
