@@ -6,6 +6,7 @@ img: assets/img/mdvrp01.jpg
 importance: 1
 category: work
 comments: true
+related_publications: true
 github: https://github.com/Nikronic/Optimized-MDVRP
 ---
 
