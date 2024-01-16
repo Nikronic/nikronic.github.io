@@ -5,7 +5,7 @@ description: What are the best routes a fleet of vehicles should take to reach a
 img: assets/img/mdvrp01.jpg
 importance: 1
 category: work
-comments: true
+disqus_comments: true
 related_publications: true
 github: https://github.com/Nikronic/Optimized-MDVRP
 ---
