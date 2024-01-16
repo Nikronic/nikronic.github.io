@@ -6,7 +6,6 @@ img: assets/img/de(re)screening01.jpg
 importance: 2
 category: work
 disqus_comments: true
-related_publications: true
 github: https://github.com/Nikronic/Deep-Halftoning
 ---
 
