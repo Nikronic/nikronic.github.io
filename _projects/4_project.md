@@ -5,7 +5,7 @@ description: Open organization for student by students for show casing their wor
 img: assets/img/iust-main.jpg
 importance: 3
 category: community
-disqus_comments: true
+gisqus_comments: true
 github: https://github.com/iust-projects
 ---
 
