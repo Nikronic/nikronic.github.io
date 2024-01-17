@@ -22,8 +22,10 @@ IUST Projects is an <strong>open GitHub organization</strong> with a focus on sh
 
 At IUST, there is no open discussion of ideas, mostly transferred and enforced by instructors and policies of the university which made the environment unpleasant that barely you would find a group of people sharing ideas even related to curriculum. I learned so much from open-source and discussions with almost all students during bachelor's study and <strong>we decided to create a friendly, competitive and constructive atmosphere</strong>, hence created this organization open to everyone! Unfortunately, we failed!
 
-***
+---
+
 Our contribution can be summarized into:
+
 <ul>
     <li>Hosting assignments, course notes, curriculum, etc of software engineering and artificial intelligence majors</li>
     <li>Theoretical and implementation of solutions to assignments of different courses such as:
@@ -41,4 +43,5 @@ Our contribution can be summarized into:
 You can find more info on <a href="https://github.com/iust-projects">Github</a> and the <a href="http://iust-projects.ir">website</a>.
 
 #### Acknowledgement
+
 The IUST Projects website and its GitHub organization was initially created by my awesome friend <a href="https://www.avestura.dev/">Aryan Ebrahimpour</a> and me.
