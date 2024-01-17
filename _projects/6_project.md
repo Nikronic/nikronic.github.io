@@ -5,7 +5,7 @@ description: The official discussion forum of PyTorch with more than 50 thousand
 img: assets/img/pt-discuss-dark.png
 importance: 2
 category: community
-gisqus_comments: true
+giscus_comments: true
 ---
 
 <div class="row">
