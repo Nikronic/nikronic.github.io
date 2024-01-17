@@ -5,7 +5,7 @@ description: School of AI is an open organization for anyone interested in colle
 img: assets/img/soai.jpg
 importance: 1
 category: community
-disqus_comments: true
+gisqus_comments: true
 github: https://github.com/rasht-school-of-ai
 ---
 

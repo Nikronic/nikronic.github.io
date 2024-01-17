@@ -5,7 +5,7 @@ description: Tiny codes here and there that might be fun or hopefully useful
 img: assets/img/vhdl_game.gif
 importance: 3
 category: side-project
-disqus_comments: true
+gisqus_comments: true
 ---
 
 <div class="row">
