@@ -9,6 +9,6 @@ related_posts: false
 
 Our work, <em>"Topology Optimization via Frequency Tuning of Neural Design Representations"</em> was accepted, published, and I presented it at ACM Symposium on Computational Fabrication. This was my first-ever academic work which was part of my thesis at master's study.
 
-***
+---
 
 For more information, please see the corresponding webpage, available through <a href="{{site.baseurl}}/publications">publications</a> page.
