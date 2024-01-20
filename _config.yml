@@ -125,7 +125,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Good To Know # blog_name will be displayed in your blog page
-blog_description: Notes that hopefully benefit someone, and me!
+blog_description: One should use common words<br>to say uncommon things
 blog_description_note: The posts tagged with <em>daily-note</em> indicated posts I find interesting independent of agreement with my views. As the title of this blog suggests, this is a place where there might be something <em>good to know</em>, even if I totally disagree with it.
 permalink: /blog/:year/:title/
 

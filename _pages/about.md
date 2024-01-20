@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: The less to write, the harder it gets. :)
+subtitle: Man can do what he wills but he cannot will what he wills. — Arthur Schopenhauer
 
 profile:
   align: right
