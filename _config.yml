@@ -8,11 +8,11 @@ middle_name:
 last_name: Doosti
 email: nikan.doosti@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Nikan Doosti, an Artificial Intelligence researcher (hopefully!)
+  Artificial Intelligence Researcher
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: deep-learning, computational-fabrication, physics-based-simulation, computer-graphics, portfolio-website # add your own keywords or leave empty
+keywords: artificial-intelligence, deep-learning, computational-fabrication, physics-based-simulation, computer-graphics # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌌 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -105,7 +105,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 contact_note: >
   You can contact me <a href="https://cal.com/nikronic">anytime</a> about anything, but I don't promise the <em>best</em> (most accurate) or the <em>expected</em> (what you might like to hear) response.
   If I have not responded within <strong>48 hours</strong>, please send a reminder (prioritize based on the given order).<br>
-  <strong>Order of availability</strong>: Email >>> Telegram > Twitter (I barely check messages)
+  <strong>Order of availability</strong>: Email >>> Telegram
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -124,6 +124,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+blog_name: Good To Know # blog_name will be displayed in your blog page
+blog_description: Notes that hopefully benefit someone, and me!
 blog_description_note: The posts tagged with <em>daily-note</em> indicated posts I find interesting independent of agreement with my views. As the title of this blog suggests, this is a place where there might be something <em>good to know</em>, even if I totally disagree with it.
 permalink: /blog/:year/:title/
 
@@ -265,8 +267,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["career", "relationship", "self-improvement", "engineering"] # these tags will be displayed on the front page of your blog
+display_categories: ["daily-note", "blog"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
