@@ -12,6 +12,7 @@ toc:
 ---
 
 Some reminders:
+
 - is using distill style better? then do it
 - do not forget bib, and other assets in proper format
 - use mermaid, tfjs, plotly, jupyter nb, github metadata, twitter, liquid audio/video etc to demo things
