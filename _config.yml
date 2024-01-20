@@ -176,6 +176,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  cool:
+    output: true
+    permalink: /cool/:path/
 
 announcements:
   enabled: true
