@@ -178,6 +178,44 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Emblem
+
+.emblem {
+  width: 100%;
+
+  .more-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.emblem figure {
+  margin: 0 0 0rem !important;
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .emblem figure {
+    display: block;
+  }
+
+  .emblem {
+    width: 5%;
+
+    .address {
+      p {
+        display: block;
+      }
+    }
+  }
+}
+
 // Profile
 
 .profile {
