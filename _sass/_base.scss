@@ -60,6 +60,10 @@ img {
   max-width: 90vw;
 }
 
+figure {
+    margin: 10px 5px 10px 5px !important;  
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
