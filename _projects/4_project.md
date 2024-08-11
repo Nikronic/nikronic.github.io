@@ -2,16 +2,16 @@
 layout: page
 title: IUST Projects
 description: Open organization for student by students for show casing their work and mentoring each other on graduate studies
-img: assets/img/iust-main.jpg
+img: assets/img/iust-main.webp
 importance: 3
 category: community
 giscus_comments: true
-github: https://github.com/iust-projects
+# github: https://github.com/iust-projects
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/iust-main.jpg" title="Iran University of Science and Technology" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/iust-main.webp" title="Iran University of Science and Technology" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

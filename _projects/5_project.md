@@ -2,16 +2,16 @@
 layout: page
 title: Rasht School of AI
 description: School of AI is an open organization for anyone interested in collectively learning and utilizing AI in their work and research
-img: assets/img/soai.jpg
+img: assets/img/soai.webp
 importance: 1
 category: community
 giscus_comments: true
-github: https://github.com/rasht-school-of-ai
+# github: https://github.com/rasht-school-of-ai
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/soai.jpg" title="Rasht School of AI" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/soai.webp" title="Rasht School of AI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

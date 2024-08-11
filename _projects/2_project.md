@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Deep Halftoning
-description: Deep context-aware descreening and rescreening of halftone images is a fully automatic method for descreening halftone images is presented based on convolutional neural networks with end-to-end learning.
-img: assets/img/de(re)screening01.jpg
+description: Deep context-aware descreening and rescreening of halftone images via end-to-end deep learning method.
+img: assets/img/de(re)screening01.webp
 importance: 2
 category: work
 giscus_comments: true
-github: https://github.com/Nikronic/Deep-Halftoning
+# github: https://github.com/Nikronic/Deep-Halftoning
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/de(re)screening01.jpg" title="Halftoning and Rescreening example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/de(re)screening01.webp" title="Halftoning and Rescreening example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
