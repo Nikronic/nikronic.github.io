@@ -21,4 +21,4 @@ PyTorch forum is a place to discuss topics around PyTorch framework and deep lea
 
 Since November 2018 that I started deep learning with PyTorch, I read topics around my questions. Later, I tried to answer questions around topics that I was not familiar with and it helped me to dive deeper into the framework, learn many of tricks and return the favor!<br> At the time of writing, <strong>I've 563 posted replies and have 184 solutions (rank 15 out of 50000+).</strong>
 
-You can find more info on the <a href="https://discuss.pytorch.org/u/nikronic/summary">Summary</a> page or <a href="https://discuss.pytorch.org/u?order=likes_received&period=all">Ordered users</a> (All time). Also, A cool <a href="https://twitter.com/ThomasViehmann/status/1309794697049714689">tweet</a> about my contribution by Thomas Viehmann. :smile:
+You can find more info on the <a href="https://discuss.pytorch.org/u/nikronic/summary">Summary</a> page or <a href="https://discuss.pytorch.org/u?order=likes_received&period=all">Ordered users</a> (All time). Also, A cool <a href="https://x.com/ThomasViehmann/status/1309794697049714689">tweet</a> about my contribution by Thomas Viehmann. :smile:
