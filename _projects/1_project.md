@@ -6,7 +6,7 @@ img: assets/img/mdvrp01.webp
 importance: 1
 category: work
 giscus_comments: true
-github: https://github.com/Nikronic/Optimized-MDVRP
+# github: https://github.com/Nikronic/Optimized-MDVRP
 ---
 
 Multi-Deport Vehicle Routing Problem (MDVRP) is a multi-objective optimization task. In MDVRP, the goal is to assign a number of vehicles which are distributed in multi depots in search for the customers meanwhile minimizing the number of vehicles used and distance traveled regarding some constraints such as vehicle weight threshold.

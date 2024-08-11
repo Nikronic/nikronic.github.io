@@ -6,7 +6,7 @@ img: assets/img/iust-main.webp
 importance: 3
 category: community
 giscus_comments: true
-github: https://github.com/iust-projects
+# github: https://github.com/iust-projects
 ---
 
 <div class="row">

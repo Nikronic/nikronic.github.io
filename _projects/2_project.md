@@ -6,7 +6,7 @@ img: assets/img/de(re)screening01.webp
 importance: 2
 category: work
 giscus_comments: true
-github: https://github.com/Nikronic/Deep-Halftoning
+# github: https://github.com/Nikronic/Deep-Halftoning
 ---
 
 <div class="row">

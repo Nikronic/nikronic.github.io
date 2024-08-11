@@ -6,7 +6,7 @@ img: assets/img/soai.webp
 importance: 1
 category: community
 giscus_comments: true
-github: https://github.com/rasht-school-of-ai
+# github: https://github.com/rasht-school-of-ai
 ---
 
 <div class="row">
