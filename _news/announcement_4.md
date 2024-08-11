@@ -6,7 +6,7 @@ inline: false
 giscus_comments: true
 ---
 
-I gave a oral talk as the 10-min opener about <a href="{{site.baseurl}}/news/announcement_2">my recent publication</a> at <a href="toronto-geometry-colloquium.github.io">Toronto Geometry Colloquium</a> which is part of <a href="https://www.dgp.toronto.edu">Dynamic Graphics Project</a> lab at University of Toronto.
+I gave a oral talk as the 10-min opener about <a href="{{site.baseurl}}/news/announcement_2">my recent publication</a> at <a href="https://toronto-geometry-colloquium.github.io">Toronto Geometry Colloquium</a> which is part of <a href="https://www.dgp.toronto.edu">Dynamic Graphics Project</a> lab at University of Toronto.
 
 ---
 

@@ -29,7 +29,7 @@ My contributions include:
     <li>Mentoring students, particularly those with non-STEM background toward utilizing AI in other fields of science</li>
 </ul>
 
-You can find more info on <a href="https://github.com/rasht-school-of-ai">Github</a> and the <a href="http://schoolofai.ir">website (in Persian)</a>
+You can find more info on <a href="https://github.com/rasht-school-of-ai">Github</a>. ~~and the <a href="http://schoolofai.ir">website (in Persian)</a>~~
 
 #### Acknowledgement
 
