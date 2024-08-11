@@ -43,6 +43,27 @@
       </button>
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
+        {% if page.emblem %}
+          <div class="emblem">
+            <a href="https://en.wikipedia.org/wiki/Derafsh_Kaviani">
+              {% if page.emblem.image %}
+                {% assign emblem_image_path = page.emblem.image | prepend: 'assets/img/' %}
+                {% if page.emblem.image_circular %}
+                  {% assign emblem_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                {% else %}
+                  {% assign emblem_image_class = 'img-fluid z-depth-1 rounded' %}
+                {% endif %}
+                {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+            30vw, 95vw"{% endcapture %}
+                {%
+                  include figure.liquid path = emblem_image_path class = emblem_image_class sizes = sizes alt = page.emblem.image
+                  cache_bust = true
+                %}
+              {% endif %}
+            </a>
+          </div>
+        {% endif %}
+
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
