@@ -11,22 +11,20 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master of Computer Engineering - Artificial Intelligence
+    - title: Master of Science in Computer Engineering - Artificial Intelligence
       institution: Iran University of Science and Technology, Tehran, Iran
       year: August 2019 - December 2022
       description:
         - <span>Thesis Title:</span> High Resolution Neural Topology Optimization via Differentiable Physics Engine
-        - Defended with Full mark on 22 October 2022
-        - <span>GPA:</span> 17.17/20.00
-        - <span>IUST:</span> This university is one of the most prestigious in the country.
+        - <span>Defence:</span> Achieved <strong>maximum score</strong> during defense on <i>Oct 22, 2022</i> with <strong>GPA of 17.17/20.00</strong>
+        - <span>IUST:</span> This university is one of the most prestigious in the country, being in <strong>top-4</strong> consistently.
 
     - title: Bachelor of Computer Engineering
       institution: University of Guilan, Rasht, Iran
       year: August 2015 - August 2019
       description:
         - <span>Final Project:</span> Descreening and Rescreening of Halftone Images via Data-Driven Deep Learning Methods
-        - <span>Class Rank:</span> 3rd
-        - <span>GPA:</span> 18.64/20.00
+        - <span>Class Rank:</span> Graduated <strong>3rd</strong> out of 55 with a <strong>GPA of 18.64/20.00</strong>
         # - title: asd
         #   contents:
         #     - Sub-description 1.
@@ -44,7 +42,7 @@
   contents:
     - year: 2022
       items:
-        - Doosti, Nikan. 2022. "Neural Design Representations." Toronto Geometry Colloquium. March 4, 2022. toronto-geometry-colloquium.github.io. (<span>Length:</span> 10 mins., <a href="https://youtu.be/FdPwG2kNv0M">Video</a>)
+        - Doosti, Nikan. 2022. "Neural Design Representations." <strong>Toronto Geometry Colloquium advised by Alec Jacobson</strong> - University of Toronto. March 4, 2022. toronto-geometry-colloquium.github.io. (<span>Length:</span> 10 mins., <a href="https://youtu.be/FdPwG2kNv0M">Video</a>)
 
 - title: Research Experience
   type: time_table
@@ -54,25 +52,28 @@
       department: <a href="http://aidam.mpi-inf.mpg.de/?view=home">Artificial Intelligence aided Design and Manufacturing Group</a>
       year: July 2020 - March 2021
       description:
-        - Novel self-supervised neural method for obtaining the optimum design showcased in Topology Optimization
-        - Supervision of <a href="http://aidam.mpi-inf.mpg.de/?view=people_vahid">Dr. Vahid Babaei</a>
-        - Collaboration of <a href="https://www.julianpanetta.com">Prof. Julian Panetta</a> at University of California, Davis, USA
-        - Physics-based simulation of stiffness of the obtained design
-        - Generative continuous design via a single fixed mesh through controlling the frequencies
-        - This project has been published and presented in ACM Symposium on Computational Fabrication 2021
-        - This project was defined as my master's thesis
+        - <span>Project Overview:</span> <strong>Novel self-supevised neural method for obtaining the optimum design showcased in Topology Optimization</strong>
+        - <span>Collaboration:</span> Supervised by <a href="http://aidam.mpi-inf.mpg.de/?view=people_vahid">Dr. Vahid Babaei</a> and collaborated with <a href="https://www.julianpanetta.com/">Prof. Julian Panetta</a> from the University of California, Davis, USA.
+        - <strong>Interdisciplinary Learning</strong>:</span> Successfully navigated and mastered new topics outside my primary field, such as mechanical engineering, through self-directed learning.
+        - <span>Experiment Management:</span> Managed <strong>large-scale experiments</strong> by developing customized logging solutions and using MLflow to <strong>track and report results</strong>, particularly enabling <strong>easy follow-up near deadline</strong>.
+        - <span>Team Collaboration:</span> Actively <strong>supported group members by sharing expertise in AI</strong>, particularly in implementing mathematical models with PyTorch, and optimized workflows by <strong>guiding the team in using Slurm clusters</strong> effectively.
+        - <span>Commitment:</span> Dedicated <strong>over 1500 hours</strong> to research and development, demonstrating a <strong>strong commitment</strong> to the project and its outcomes.
+        - <span>Outcome:</span> Resulted in a <strong>master's thesis and a paper</strong> that was published and presented at the ACM Symposium on Computational Fabrication 2021.
 
 - title: Work Experience
   type: time_table
   contents:
-    - title: Full-time Machine Learning Engineer
-      institution: Pana4, Karaj, Iran
+    - title: Full-time Data Engineering and Data Science Specialist
+      institution: Panafor, Karaj, Iran
       year: April 2022 - December 2023
       description:
-        - Counseled employees, software engineers, and managers on revamping the data architecture, resulting in mitigating bad data by at least %35
-        - Designed a full pipeline of data extraction, transformation, and loading targeting data science applications
-        - Integrated gamification objectives in designing and training machine learning models to produce engaging and informative user interactions
-        - Advocated for using best practices such as proper documentation, git, and open source, which led to full utilization of these topics in the daily workflow of the IT department
+        - <strong>Summary:</strong> Specializing in Data-driven Decision Making for Business Optimization.
+        - <span>The Problem:</span> <strong>Implemented an AI-driven solution to address the challenge of prioritizing customers applications in the tourism sector.</strong>
+        - <span>Impact:</span> Decreased personnel error by 10\%, <strong>mitigating potential losses equivalent to 5.5 times my annual salary.</strong> Also, <strong>awarded for dedication and leadership</strong>, leading to two promotions and a 70\% salary increase within one year. Moreover, <strong>I established myself as the primary resource for onboarding and training</strong> new team members, receiving praise for my ability to simplify fundamental concepts.
+        - Developed a comprehensive screening process automation from customer communication to application prioritization, filtering calls based on the complexity of inquiries, <strong>reducing manual workload by 40\%.</strong>
+        - Oversaw the development of a proprietary data extraction and preprocessing pipeline, resulting in a <strong>35\% reduction in poor-quality data</strong>.
+        - Deployed classical machine learning models alongside deep learning methods, coupled with Explainable AI techniques to prioritize applications and provide transparent reasoning for each decision.
+        - This experience demonstrates my ability to leverage AI technologies to optimize decision-making processes, drive significant business outcomes, and collaborate effectively with stakeholders from various backgrounds.
 
 - title: Teaching Experience
   type: time_table
@@ -81,7 +82,7 @@
       institution: Advanced Programming, University of Guilan
       year: August 2018 - February 2019
       description:
-        - Supervision of <a href="https://ir.linkedin.com/in/seyed-abolghasem-mirroshandel-1a3a5950">Dr. Ghasem Mirroshandel</a>
+        - <span>Supervisor:</span> <a href="https://ir.linkedin.com/in/seyed-abolghasem-mirroshandel-1a3a5950">Dr. Ghasem Mirroshandel</a>
         - Taught undergraduate students Java programming language in weekly 4-hour sessions
         - Designed and graded their assignments and the final project
 
@@ -89,14 +90,14 @@
       institution: Algorithms Design, University of Guilan
       year: August 2018 - February 2019
       description:
-        - Supervision of <a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
+        - <span>Supervisor:</span> <a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
         - Held weekly 2-hour QA sessions and graded the assignments
 
     - title: Head Teaching Assistant
       institution: Computational Intelligence, University of Guilan
       year: February 2018 - July 2018
       description:
-        - Supervision of <a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
+        - <span>Supervisor:</span> a href="https://www.linkedin.com/in/mojtaba-moe-shakeri-b34a2b6/">Dr. Mojtaba Shakeri</a>
         - Designed programming assignments (<a href="https://github.com/Computational-Intelligence-Fall18">Material</a>)
         - Held weekly 2-hour QA sessions and graded all the assignments
 
@@ -127,31 +128,27 @@
         - A top member (15th) with 183 solutions and 566 posts (<a href="https://discuss.pytorch.org/u/Nikronic/">summary</a>)
         - Commended by <a href="https://twitter.com/ThomasViehmann/status/1309794697049714689">Thomas Viehmann</a> for insightful posts
 
-- title: Honors and Awards
-  type: time_table
+- title: Awards & Certificates
+  type: list
   contents:
-    - year: 2019
-      items:
-        - Accepted in M.Sc program without Entrance Exam as an Exceptional Talent
-        - Tuition Waiver, M.Sc, Iran University of Science and Technology
-    - year: 2015
-      items:
-        - Tuition Waiver, B.Sc, University of Guilan
-        - Ranked 3rd among B.Sc graduates in Computer Engineering at University of Guilan
+    - Awarded for <strong>dedication and leadership</strong> at Panafor <i>(2023)</i>
+    - Completed <strong>training in Workplace Ethics and Professionalism</strong>, Organizational Behavior, and other related topics. <i>(2023)</i>
+    - <strong>Tuition Waiver</strong>, M.Sc, Iran University of Science and Technology <i>(2022)</i>
+    - Accepted in M.Sc program without entrance exam as a <strong>National Exceptional Talent</strong> <i>(2019)</i>
+    - <strong>Ranked 3rd</strong> among B.Sc graduates in Computer Engineering at University of Guilan <i>(2019)</i>
+    - <strong>Tuition Waiver</strong>, B.Sc, University of Guilan <i>(2019)</i>
+    - Participated in the Deep Learning Summer School at Gda\'{n}sk University of Technology <i>(2020)</i>
 
 - title: Research Interests
   type: list
   contents:
-    - Deep Learning
-    - Computer Graphics
-    - Physics-based Simulation
+    - Deep Learning and Machine Learning
+    - Computer Graphics and Physics-based Simulation
     - Computational Fabrication
-    - Computational Health and Medicine
-    - Digital Image Processing
+    - AI for Engineering and Science
 
 - title: Other Interests
   type: list
   contents:
     - <span>Video Games:</span> Experiencing untouchable. <span>Top-3:</span> DoTA2, GTA, Battlefield
     - <span>History:</span> History repeats itself (although it's been written by the winners!).
-    - <span>Nature:</span> Rhymes with my harmony, chaotic yet full of patterns.
