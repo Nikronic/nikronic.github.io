@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI Conference Deadlines
+title: AI Conference Deadline Countdowns
 description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines.
 importance:
 category: pro
