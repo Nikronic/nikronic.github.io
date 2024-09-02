@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined Nahal Gasht as a full-time machine learning engineer.
+I joined Panafor as a full-time machine learning engineer.
