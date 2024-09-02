@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I have been promoted to Team Leader at Nahal Gasht
+title: I have been promoted to the position of Team Leader at Panafor
 date: 2023-03-01 09:00:00-0400
 inline: false
 related_posts: false
