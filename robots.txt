@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nikronic.github.io/sitemap.xml
+Sitemap: https://nikronic.com/sitemap.xml
