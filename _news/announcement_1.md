@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I defended my master's thesis with full grade at Iran University of Science and Technology.
+I defended my master's thesis with full marks at Iran University of Science and Technology, one of the most prestigious universities in Iran.
