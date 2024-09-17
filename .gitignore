@@ -10,3 +10,5 @@ Gemfile.lock
 node_modules/
 vendor
 
+# raw materials used to generate the material used in projects
+projects_raw_materials
