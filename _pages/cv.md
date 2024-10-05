@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: curriculum vitae
+title: cv
 nav: true
-nav_order: 4
+nav_order: 3
 cv_pdf: cv.pdf
 description: For a standard CV, please download the PDF one.
 toc:
