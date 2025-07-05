@@ -1,6 +1,8 @@
 github_users:
   - Nikronic
 
+repo_description_lines_max: 2
+
 github_repos:
   - Nikronic/Optimized-MDVRP
   - Nikronic/canada-visa-form-extraction
