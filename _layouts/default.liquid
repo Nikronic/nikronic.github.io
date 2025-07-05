@@ -3,7 +3,14 @@
   <!-- Head -->
   <head>
     {% if page.redirect %}
-      <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/">
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {%- if page.redirect_to -%}
       <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}/">
@@ -47,15 +54,6 @@
     {% include footer.liquid %}
 
     <!-- JavaScripts -->
-    {% include scripts/jquery.liquid %}
-    {% include scripts/bootstrap.liquid %}
-    {% include scripts/masonry.liquid %}
-    {% include scripts/mermaid.liquid %}
-    {% include scripts/misc.liquid %}
-    {% include scripts/badges.liquid %}
-    {% include scripts/mathjax.liquid %}
-    {% include scripts/analytics.liquid %}
-    {% include scripts/progressBar.liquid %}
-    {% include scripts/wechatModal.liquid %}
+    {% include scripts.liquid %}
   </body>
 </html>

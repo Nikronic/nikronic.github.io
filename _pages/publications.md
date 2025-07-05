@@ -10,6 +10,11 @@ nav_order: 2
 The following page is generated manually, an up-to-date list is available on <a href="https://scholar.google.com/citations?hl=en&user=QWFKVW8AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>.
 
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
 {% bibliography %}
