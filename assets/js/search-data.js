@@ -287,6 +287,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=QWFKVW8AAAAJ", "_blank");
         },
       },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/358504410674", "_blank");
+        },
+      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
