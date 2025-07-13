@@ -26,6 +26,9 @@ giscus_comments: true
     Vizard Overview
 </div>
 
+<em>PS:</em> Unfortunately I failed at finalizing and commercializing it; <a href="https://instabase.com/">Instabase</a> startup successfully released a closely resembling concept, as an <em>AI-Native Unstructured Data Platform</em>. Congrats to them! :)
+
+
 <!-- Section: Summary for General Audience -->
 <section>
   <h3>General Summary</h3>
