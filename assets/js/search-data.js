@@ -244,6 +244,11 @@ ninja.data = [{
           description: "The official discussion forum of PyTorch with more than 50 thousands members and authors of PyTorch",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
+            },},{id: "projects-ai-expert-in-a-box",
+          title: 'AI Expert-in-a-Box',
+          description: "A framework for any organization that has domain-specific enterprize unstructured data where internal experts need to automate complex decision-making.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vizard_project/";
             },},{
         id: 'social-acm',
         title: 'ACM DL',
