@@ -3,7 +3,7 @@ layout: page
 title: CVFE
 description: Canada Visa Form Extraction (CVFE) is a tool set to extract and transform Canada visa forms (IMM 5257 E and IMM 5645 E) into structured tabular format.
 img: assets/img/cvfe-design.webp
-importance: -1
+importance: 3
 category: work
 giscus_comments: true
 ---
