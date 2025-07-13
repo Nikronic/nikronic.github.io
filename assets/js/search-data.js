@@ -213,37 +213,37 @@ ninja.data = [{
           title: 'CVFE',
           description: "Canada Visa Form Extraction (CVFE) is a tool set to extract and transform Canada visa forms (IMM 5257 E and IMM 5645 E) into structured tabular format.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/0_project/";
-            },},{id: "projects-optimized-mdvrp",
-          title: 'Optimized MDVRP',
-          description: "What are the best routes a fleet of vehicles should take to reach a particular group of customers?",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/cvfe_project/";
             },},{id: "projects-deep-halftoning",
           title: 'Deep Halftoning',
           description: "Deep context-aware descreening and rescreening of halftone images via end-to-end deep learning method.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-small-scattered-projects",
-          title: 'Small Scattered Projects',
-          description: "Tiny codes here and there that might be fun or hopefully useful",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/deep-halftoning_project/";
             },},{id: "projects-iust-projects",
           title: 'IUST Projects',
           description: "Open organization for student by students for show casing their work and mentoring each other on graduate studies",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-rasht-school-of-ai",
-          title: 'Rasht School of AI',
-          description: "School of AI is an open organization for anyone interested in collectively learning and utilizing AI in their work and research",
+              window.location.href = "/projects/iust-projects_project/";
+            },},{id: "projects-optimized-mdvrp",
+          title: 'Optimized MDVRP',
+          description: "What are the best routes a fleet of vehicles should take to reach a particular group of customers?",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/mdvrp_project/";
             },},{id: "projects-pytorch-discuss-forum",
           title: 'PyTorch Discuss Forum',
           description: "The official discussion forum of PyTorch with more than 50 thousands members and authors of PyTorch",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/pytorch-discuss_project/";
+            },},{id: "projects-small-scattered-projects",
+          title: 'Small Scattered Projects',
+          description: "Tiny codes here and there that might be fun or hopefully useful",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/random_project/";
+            },},{id: "projects-rasht-school-of-ai",
+          title: 'Rasht School of AI',
+          description: "School of AI is an open organization for anyone interested in collectively learning and utilizing AI in their work and research",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rsoai_project/";
             },},{id: "projects-ai-expert-in-a-box",
           title: 'AI Expert-in-a-Box',
           description: "A framework for any organization that has domain-specific enterprize unstructured data where internal experts need to automate complex decision-making.",
