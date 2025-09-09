@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a machine learning researcher, currently working as a research associate focusing on AI-assisted Product Development, mainly integration of data-driven and physics-based deep learning in advanced additive manufacturing (metal 3D printing) processes. This research is conducted within the Engineering department as part of Prof. Jan Akmal project in the <a href="https://www.aalto.fi/en/department-of-energy-and-mechanical-engineering/materials-to-products">Material2Products</a> group research group at Aalto Design Factory, Aalto University.
+I’m a machine learning researcher, currently working as a research associate focusing on AI-assisted Design and Fabrication, mainly integration of data-driven and physics-based deep learning in advanced additive manufacturing (metal 3D printing) processes. This research is conducted within the Engineering department as part of Prof. Jan Akmal's project in the <a href="https://www.aalto.fi/en/department-of-energy-and-mechanical-engineering/materials-to-products">Material2Products</a> research group at Aalto Design Factory, Aalto University, in collaboration with Electro Optical Systems <a href="https://www.eos.info/">EOS Finland Oy</a>.
 
 I have built foundation and experience in DL/ML, Physical-Simulation, Computational Design, and Digital Fabrication; especially enthusiastic about expanding into Drug Design and Healthcare, and in general, applicability of AI in conjunction with science & engineering.
 
