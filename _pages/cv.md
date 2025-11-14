@@ -1,6 +1,8 @@
 ---
 layout: cv
-permalink: /cv/
+# permalink: /cv/
+# temporarily until I update the digital version of the CV
+permalink: /assets/pdf/cv.pdf
 title: cv
 nav: true
 nav_order: 3
