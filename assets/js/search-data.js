@@ -35,7 +35,7 @@ ninja.data = [{
           description: "For a standard CV, please download the PDF one.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/assets/pdf/cv.pdf";
+            window.location.href = "/assets/pdf/cv-short.pdf";
           },
         },{id: "nav-research-advice",
           title: "research advice",
